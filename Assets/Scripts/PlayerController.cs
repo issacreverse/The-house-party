@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -7,10 +8,9 @@ public class PlayerController : MonoBehaviour
     [Header("References")]
     [SerializeField] private Transform cameraPivot;
 
-    /*
+    
     [Tooltip("Attach main camera. (For FOV)")]
     [SerializeField] private Camera playerCamera;
-    */
 
     [Header("Look Mouse")]
     [SerializeField] private float sensitivityX = 2.0f; // yaw
@@ -28,11 +28,15 @@ public class PlayerController : MonoBehaviour
 
     private bool jumpRequested;
 
-    /*
+    
     [Header("FOV (Optional)")]
-    [SerializeField] private float normalFOV = 75f;
-    [SerializeField] private float fovLerpSpeed = 12f;
-    */
+    [SerializeField] private float normalFOV = 60f;
+    [SerializeField] private float zoomFOV = 35f;
+    [SerializeField] private float zoomSpeed = 10f;
+    [SerializeField] private float talkFOV = 40f;
+    [SerializeField] private float talkLerpSpeed = 10f;
+
+    
 
     private CharacterController cc;
 
@@ -41,6 +45,10 @@ public class PlayerController : MonoBehaviour
 
     private bool lookEnabled = true;
     private bool moveEnabled = true;
+    private bool zoomEnabled = true;
+
+    [SerializeField] private GameObject UIManager;
+    private UIManager _UIManager;
 
     // private float targetFOV;
 
@@ -48,6 +56,8 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         cc = GetComponent<CharacterController>();
+
+        _UIManager = UIManager.GetComponent<UIManager>();
 
         if(cameraPivot == null)
             Debug.Log("Error: camera pivot missing");
@@ -70,6 +80,8 @@ public class PlayerController : MonoBehaviour
             HandleLook();
         if(moveEnabled)
             HandleMove();
+        if(zoomEnabled)
+            HandleZoom();
         else
             ApplyGravityOnly();
 
@@ -122,6 +134,19 @@ public class PlayerController : MonoBehaviour
 
         jumpRequested = false;
     }
+    private void HandleZoom()
+    {
+        if(Input.GetMouseButton(1))
+        {
+            playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, zoomFOV, Time.deltaTime * zoomSpeed);
+            _UIManager.UI_ZoomScopeEnter();
+        }
+        else
+        {
+            playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
+            _UIManager.UI_ZoomScopeExit();
+        }
+    }
     private void ApplyGravityOnly()
     {
         if (cc.isGrounded && verticalVelocity < 0f)
@@ -129,6 +154,33 @@ public class PlayerController : MonoBehaviour
 
         verticalVelocity += gravity * Time.deltaTime;
         cc.Move(new Vector3(0f, verticalVelocity, 0f) * Time.deltaTime);
+    }
+    public void BeginConversation(NPC currentTarget)
+    {
+        //Exit Zoom
+        playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
+        _UIManager.UI_ZoomScopeExit();
+
+        moveEnabled = false;
+        lookEnabled = false;
+        zoomEnabled = false;
+        currentTarget.moveEnabled = false;
+
+        playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, talkFOV, Time.deltaTime * talkLerpSpeed);
+        StartCoroutine(currentTarget.StartTalking(gameObject.transform));
+
+    }
+    public void EndConversation(NPC currentTarget)
+    {
+        playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * talkLerpSpeed);
+        StartCoroutine(currentTarget.NPCAfterConversation());
+
+        currentTarget.moveEnabled = true;
+        moveEnabled = true;
+        lookEnabled = true;
+        zoomEnabled = true;
+        
+
     }
 #region FOV
     /*
