@@ -119,36 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!20 &631160556 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1782758709789475542, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-  m_PrefabInstance: {fileID: 1025249421}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &668642437 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1982213888259681303, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-  m_PrefabInstance: {fileID: 1025249421}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &668642443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668642437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 837c9e4684ec9664a9e42992a273a8af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Talk
-  cam: {fileID: 631160556}
-  maxDistance: 3
-  radius: 0.05
-  npcMask:
-    serializedVersion: 2
-    m_Bits: 64
-  triggerInteraction: 1
-  drawDebug: 1
 --- !u!43 &1021768420
 Mesh:
   m_ObjectHideFlags: 0
@@ -335,26 +305,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      propertyPath: m_Name
-      value: NPC
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      propertyPath: m_TagString
-      value: NPC
-      objectReference: {fileID: 0}
     - target: {fileID: 1780542741554627339, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1021768420}
-    - target: {fileID: 1982213888259681303, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 2633665454199247858, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
       propertyPath: m_Name
       value: MasterPrefab
@@ -365,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 1021768420}
     - target: {fileID: 3839644805124079167, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
       propertyPath: m_VersionIndex
-      value: 7444
+      value: 7450
       objectReference: {fileID: 0}
     - target: {fileID: 7031494458878270961, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
       propertyPath: m_LocalPosition.x
@@ -414,60 +368,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1982213888259681303, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 668642443}
-    - targetCorrespondingSourceObject: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1174924450}
-    - targetCorrespondingSourceObject: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1174924451}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
---- !u!1 &1174924445 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1267125090767274605, guid: c2f7e652fa856d041bbaf9e091bf4790, type: 3}
-  m_PrefabInstance: {fileID: 1025249421}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &1174924450
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174924445}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3.96
-  m_Height: 2.39
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1174924451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174924445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51c7906755960294e81582043026665e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPC
-  isTalkable: 0
-  moveEnabled: 0
-  duration: 0.3
 --- !u!1 &1793185605
 GameObject:
   m_ObjectHideFlags: 0
