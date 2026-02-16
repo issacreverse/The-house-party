@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour
     public bool moveEnabled;
     public bool isDoneTalking;
 
-    [SerializeField] private float duration = 0.3f;
+    [SerializeField] private float duration = 1.2f;
 
     void Start()
     {
@@ -52,6 +52,7 @@ public class NPC : MonoBehaviour
         {
             t += Time.deltaTime / duration;
             transform.rotation = Quaternion.Slerp(startRot, endRot, t);
+            yield return null;
         }
 
         transform.rotation = endRot;
