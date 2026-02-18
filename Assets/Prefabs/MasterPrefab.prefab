@@ -7152,7 +7152,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7504
+  m_VersionIndex: 7513
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8198,7 +8198,7 @@ RectTransform:
   m_GameObject: {fileID: 3658506879238649872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 1.2, z: 1}
+  m_LocalScale: {x: 0.1, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 215838106341221020}
@@ -8719,7 +8719,7 @@ RectTransform:
   m_GameObject: {fileID: 7006757433911934392}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 0.25, z: 1}
+  m_LocalScale: {x: 1.2, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 215838106341221020}
@@ -9433,6 +9433,10 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1782758709789475542}
+    - target: {fileID: 690558497517540278, guid: 86348dcc109ba1d4e95799983dbc7609, type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 925852247277783402, guid: 86348dcc109ba1d4e95799983dbc7609, type: 3}
       propertyPath: m_LocalScale.z
       value: 3.9988
@@ -9626,7 +9630,7 @@ MonoBehaviour:
   radius: 0.05
   npcMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4294967295
   triggerInteraction: 1
   drawDebug: 1
 --- !u!4 &4861451287389734590 stripped

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public enum NPCType
 {
     human,
@@ -13,5 +14,6 @@ public class NPC_Data : ScriptableObject
 
     public NPCType npcType;
 
+    public string npcName;
     //dialog...
 }

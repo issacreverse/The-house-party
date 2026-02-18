@@ -52,6 +52,11 @@ public class PlayerController : MonoBehaviour
 
     // private float targetFOV;
 
+    //aim and tag
+    [SerializeField] private float tagRange = 500f;
+    [SerializeField] private LayerMask hitMask;
+
+
 
     void Awake()
     {
@@ -140,12 +145,34 @@ public class PlayerController : MonoBehaviour
         {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, zoomFOV, Time.deltaTime * zoomSpeed);
             _UIManager.UI_ZoomScopeEnter();
+
+            //aim and tag
+            Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+            if (Physics.Raycast(ray, out RaycastHit hit, tagRange, hitMask, QueryTriggerInteraction.Ignore))
+            {
+                // hit.collider / hit.transform 으로 “조준 중인 대상” 인식
+                if(hit.collider.gameObject.CompareTag("NPC"))
+                {
+                    if(Input.GetMouseButtonDown(0))
+                    {
+                        hit.collider.GetComponent<NPC>().TagNPC();
+                    }
+                
+                Debug.DrawLine(ray.origin, hit.point, Color.green);
+                // 예: 타겟 하이라이트, 이름 표시, lock-on 등
+                }
+            }
+            else
+            {
+                Debug.DrawRay(ray.origin, ray.direction * tagRange, Color.red);
+            }
         }
         else
         {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
             _UIManager.UI_ZoomScopeExit();
         }
+        
     }
     private void ApplyGravityOnly()
     {

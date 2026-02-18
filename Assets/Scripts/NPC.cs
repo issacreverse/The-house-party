@@ -21,6 +21,9 @@ public class NPC : MonoBehaviour
 
     private NavMeshAgent agent;
 
+    //태그 정보 런타임 저장 
+    public bool isTagged = false;
+
     void Start()
     {
         isTalkable = false;
@@ -149,5 +152,17 @@ public class NPC : MonoBehaviour
         }
         Debug.Log("Walked Away");
         yield return null;
+    }
+    public void TagNPC()
+    {
+        isTagged = !isTagged;
+        if(isTagged)
+        {
+            Debug.Log(data.npcName + " has been tagged!");
+        }
+        else
+        {
+            Debug.Log(data.npcName + " has been untagged!");
+        }
     }
 }
