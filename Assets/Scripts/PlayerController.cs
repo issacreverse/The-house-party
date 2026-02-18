@@ -164,7 +164,6 @@ public class PlayerController : MonoBehaviour
         moveEnabled = false;
         lookEnabled = false;
         zoomEnabled = false;
-        currentTarget.moveEnabled = false;
 
         playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, talkFOV, Time.deltaTime * talkLerpSpeed);
         StartCoroutine(currentTarget.StartTalking(gameObject.transform));

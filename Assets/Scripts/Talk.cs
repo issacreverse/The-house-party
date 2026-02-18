@@ -36,18 +36,25 @@ public class Talk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateTarget();
+        if(!isTalking)
+        {
+            UpdateTarget();
+        }
 
 
         if(Input.GetKeyDown(KeyCode.E) && isTalkable && !isTalking)
         {
+            //Debug.Log("A");
             _playerController.BeginConversation(currentTarget);
+            //Debug.Log("A_");
             isTalking = true;
             currentTarget.isDoneTalking = false;
         }
         if(Input.GetKeyDown(KeyCode.E) && isTalking && currentTarget.isDoneTalking)
         {
+            //Debug.Log("B");
             _playerController.EndConversation(currentTarget);
+            //Debug.Log("B_");
             isTalking = false;
         }
     }

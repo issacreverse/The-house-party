@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4b947ed51d19949b3dc55fdc4d4600, type: 3}
   m_Name: NPC_Ghost1
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
-  preference: 0
-  answer: 0
+  preference: 3
+  npcType: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: POI_LivingRoom
   m_EditorClassIdentifier: Assembly-CSharp::POI_Data
   id: 1
-  weight: 1
-  minDwell: 2
-  maxDwell: 10
+  baseWeight: 1.1
+  minDwell: 20
+  maxDwell: 60
   capacity: 7
   type: 2

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
 
 public class NPC : MonoBehaviour
 {
@@ -11,11 +12,14 @@ public class NPC : MonoBehaviour
 
     [SerializeField] private float duration = 1.2f;
 
-    [SerializeField] private NPC_Data data;
+    [SerializeField] public NPC_Data data;
     public int currentPOIId;
+    public int currentPOISlot;
     public float givenDwellTime = 2f;
     public float currentTime = 0f;
     public bool isTimeRunning = true;
+
+    private NavMeshAgent agent;
 
     void Start()
     {
@@ -24,30 +28,66 @@ public class NPC : MonoBehaviour
         isDoneTalking = true;
         isMoving = false;
         navigationPaused = false;
+
+        agent = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
-        //if(moveEnabled)
-        //  navigation... and movement...
-
+        //타이머가 활성화되어있다면 시간을 센다. 
+        //DwellTime을 계산하는데 쓴다. 
         if(isTimeRunning)
         {
             currentTime += Time.deltaTime;
         }
 
+        //움직이는게 허용됨 && dwellTime을 넘겼음 && navigation중이지 않음
+        //navigation을 시도한다
+        //성공하면 navigation한다. 실패하면 해당 자리에 한번더 머무른다 (타이머 재활성화)
         if(moveEnabled && currentTime >= givenDwellTime && !isMoving)
         {
-            //navigation시도
-            //성공하면 
-            //isMoving = true;
-            //isTimeRunning = false;
-            //도착하면 
-            //isMoving false;
-            //isTimeRunning = true;
+            POI prevPOI = POIManager.Instance.FindPOIWithId(currentPOIId);
+            Vector3 prevPos = transform.position;
+            float prevGivenDwellTime = givenDwellTime;
+
+            Vector3 nextDest = POIManager.Instance.GetNextDestination(this);
+
+            if(nextDest != Vector3.zero)
+            {
+                isMoving = true;
+                isTimeRunning = false;
+                agent.SetDestination(nextDest);
+                prevPOI.FreeSlot(currentPOISlot);
+            }
+            else
+            {
+                givenDwellTime = prevGivenDwellTime;
+                currentTime = 0f;
+            }
+        }
+
+        //navigation중임 && 도착했다면 
+        //isMoving 해제. 시간을 초기화하고 타이머 재활성화. 
+        if(isMoving && HasArrived(agent))
+        {
+            isMoving = false;
+            isTimeRunning = true;
             currentTime = 0f;
         }
 
+    }
+    bool HasArrived(NavMeshAgent agent)
+    {
+        if (agent.pathPending)
+            return false;
+
+        if (agent.remainingDistance > agent.stoppingDistance)
+            return false;
+
+        if (agent.hasPath && agent.velocity.sqrMagnitude != 0f)
+            return false;
+
+        return true;
     }
     void OnTriggerEnter(Collider other)
     {
@@ -65,9 +105,14 @@ public class NPC : MonoBehaviour
     }
     public IEnumerator StartTalking(Transform target)
     {
-        //moveEnabled = false;
-        //isMoving이였다면 navagation 중지, navigationPaused = true;
-
+        moveEnabled = false;
+        //navigation 중이였다면 
+        //nav중지 
+        if(isMoving)
+        {
+            agent.isStopped = true;
+            navigationPaused = true;
+        }
         //Look At Player
         Vector3 dir = target.position - transform.position;
         dir.y = 0f;
@@ -95,8 +140,13 @@ public class NPC : MonoBehaviour
     }
     public IEnumerator NPCAfterConversation()
     {
+        moveEnabled = true;
         //원래대로 회전
-        //navigationPaused = true라면 재개하고 false로 바꾼다.
+        if(navigationPaused)
+        {
+            navigationPaused = false;
+            agent.isStopped = false;
+        }
         Debug.Log("Walked Away");
         yield return null;
     }

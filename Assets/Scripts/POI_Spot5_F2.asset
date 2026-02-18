@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08674defca94ad544af6b9c8e218c7ed, type: 3}
-  m_Name: POI_Spot3
+  m_Name: POI_Spot5_F2
   m_EditorClassIdentifier: Assembly-CSharp::POI_Data
-  id: 3
-  baseWeight: 1
+  id: 12
+  baseWeight: 0.9
   minDwell: 20
   maxDwell: 60
   capacity: 4
-  type: 3
+  type: 4
