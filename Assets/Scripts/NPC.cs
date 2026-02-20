@@ -24,6 +24,10 @@ public class NPC : MonoBehaviour
     //태그 정보 런타임 저장 
     public bool isTagged = false;
 
+    //태그 시 색깔 바꿈 (테스트 용)
+    MeshRenderer rend;
+    Color ogColor;
+
     void Start()
     {
         isTalkable = false;
@@ -33,6 +37,9 @@ public class NPC : MonoBehaviour
         navigationPaused = false;
 
         agent = GetComponent<NavMeshAgent>();
+
+        rend = GetComponent<MeshRenderer>();
+        ogColor = rend.material.color;
     }
 
     void Update()
@@ -159,10 +166,12 @@ public class NPC : MonoBehaviour
         if(isTagged)
         {
             Debug.Log(data.npcName + " has been tagged!");
+            rend.material.color = Color.red;
         }
         else
         {
             Debug.Log(data.npcName + " has been untagged!");
+            rend.material.color = ogColor;
         }
     }
 }
