@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,7 +18,20 @@ public class GameManager : MonoBehaviour
 
     private bool gamePaused = false;
 
+    //시작 필드
+    public int monsterCount;
+    public int tagsLeft = 1;
+
+    public int monsterTagged;   //잘 잡은 거
+    public int monsterNotTagged; // 놓친 거
+    public int humanTagged; //생사람 잡은 거
+    public int humanNotTagged; //일반 사람 
+
+    private bool isRoundOver = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public event Action OnTagsLeftChanged;
 
     void Awake()
     {
@@ -24,6 +39,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
         }
+        DontDestroyOnLoad(this);
     }
     void Start()
     {
@@ -31,11 +47,18 @@ public class GameManager : MonoBehaviour
         npcList = new List<NPC>();
         npcTagFalseList = new List<NPC>();
         npcTagTrueList = new List<NPC>();
+
+        RegisterNPC();
+        InitialUIUpdate();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if(isRoundOver)
+            return;
+            
         if(!gamePaused)
         {
             currentTime += Time.deltaTime;
@@ -43,13 +66,58 @@ public class GameManager : MonoBehaviour
 
         if(currentTime >= roundTime)
         {
+            //RoundOver();
+        }
+        if(tagsLeft <= 0)
+        {
             RoundOver();
         }
     }
     void RoundOver()
     {
+        isRoundOver = true;
+
         //라운드 끝나고 이겼는지 졌는지 계산 
         SortTaggedNPC();
+
+        monsterTagged = 0;
+        monsterNotTagged = 0;
+        humanTagged = 0;
+        humanNotTagged = 0;
+
+        foreach(NPC npc in npcTagTrueList)
+        {
+            if(npc.data.npcType == NPCType.monster)
+                monsterTagged++;
+            else if(npc.data.npcType == NPCType.human)
+                humanTagged++;     
+        }
+        foreach(NPC npc in npcTagFalseList)
+        {
+            if(npc.data.npcType == NPCType.monster)
+            {
+                monsterNotTagged++;
+            }
+            else if(npc.data.npcType == NPCType.human)
+            {
+                humanNotTagged++;
+            }
+        }
+
+        SceneManager.LoadScene("RoundOver");
+
+        if(monsterTagged != 0)
+            Debug.Log("You executed " + monsterTagged + " monsters.");
+        if(humanTagged != 0)
+            Debug.Log("You killed " + humanTagged + " inocent people.");
+        if(monsterNotTagged != 0)
+            Debug.Log("You let " + monsterNotTagged + " monsters go away...");
+        
+        if(monsterTagged == monsterCount)
+            Debug.Log("Looks like you saved another halloween. Well Done.");
+        else    
+            Debug.Log("You hear SCREAMING VOICES. Happy Halloween......");
+
         //처형씬으로 전환, 태그된 npc들 앞에 세워놓음
         //monster - tagged : success
         //human - tagged : inocent kill
@@ -62,10 +130,15 @@ public class GameManager : MonoBehaviour
 
     void RegisterNPC()
     {
+        monsterCount = 0;
         for(int i=0; i < NPCs.childCount; i++)
         {
-            npcList.Add(NPCs.GetChild(i).gameObject.GetComponent<NPC>());
+            NPC npc = NPCs.GetChild(i).gameObject.GetComponent<NPC>();
+            if(npc.data.npcType == NPCType.monster)
+                monsterCount++;
+            npcList.Add(npc);
         }
+        tagsLeft = monsterCount;
     }
     void SortTaggedNPC()
     {
@@ -80,5 +153,14 @@ public class GameManager : MonoBehaviour
                 npcTagFalseList.Add(npc);
             }
         }
+    }
+    public void UseTagsLeft()
+    {
+        tagsLeft--;
+        OnTagsLeftChanged?.Invoke();
+    }
+    public void InitialUIUpdate()
+    {
+        OnTagsLeftChanged?.Invoke();
     }
 }

@@ -47,8 +47,6 @@ public class PlayerController : MonoBehaviour
     private bool moveEnabled = true;
     private bool zoomEnabled = true;
 
-    [SerializeField] private GameObject UIManager;
-    private UIManager _UIManager;
 
     // private float targetFOV;
 
@@ -62,8 +60,6 @@ public class PlayerController : MonoBehaviour
     {
         cc = GetComponent<CharacterController>();
 
-        _UIManager = UIManager.GetComponent<UIManager>();
-
         if(cameraPivot == null)
             Debug.Log("Error: camera pivot missing");
         /*
@@ -76,6 +72,9 @@ public class PlayerController : MonoBehaviour
 
         LockCursor(true);
         */
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     void Update()
     {
@@ -144,7 +143,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetMouseButton(1))
         {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, zoomFOV, Time.deltaTime * zoomSpeed);
-            _UIManager.UI_ZoomScopeEnter();
+            UIManager.Instance.UI_ZoomScopeEnter();
 
             //aim and tag
             Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
@@ -170,7 +169,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
-            _UIManager.UI_ZoomScopeExit();
+            UIManager.Instance.UI_ZoomScopeExit();
         }
         
     }
@@ -186,7 +185,7 @@ public class PlayerController : MonoBehaviour
     {
         //Exit Zoom
         playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
-        _UIManager.UI_ZoomScopeExit();
+        UIManager.Instance.UI_ZoomScopeExit();
 
         moveEnabled = false;
         lookEnabled = false;

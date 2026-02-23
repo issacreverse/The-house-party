@@ -28,6 +28,9 @@ public class NPC : MonoBehaviour
     MeshRenderer rend;
     Color ogColor;
 
+    //dialog
+    public string currentDialog;
+
     void Start()
     {
         isTalkable = false;
@@ -144,8 +147,11 @@ public class NPC : MonoBehaviour
         transform.rotation = endRot;
 
         //Actual Conversation
-        Debug.Log("BlahBlahBlah");
-        yield return new WaitForSeconds(3f);
+        //dialog start
+        currentDialog = GetWeightedRandomDialog().text;
+        UIManager.Instance.UI_dialogEnter(currentDialog);
+        
+        yield return new WaitForSeconds(2f);
         isDoneTalking = true;
     }
     public IEnumerator NPCAfterConversation()
@@ -157,11 +163,14 @@ public class NPC : MonoBehaviour
             navigationPaused = false;
             agent.isStopped = false;
         }
-        Debug.Log("Walked Away");
+        //dialog done
+        UIManager.Instance.UI_dialogExit();
         yield return null;
     }
     public void TagNPC()
     {
+        GameManager.Instance.UseTagsLeft();
+        
         isTagged = !isTagged;
         if(isTagged)
         {
@@ -173,5 +182,45 @@ public class NPC : MonoBehaviour
             Debug.Log(data.npcName + " has been untagged!");
             rend.material.color = ogColor;
         }
+    }
+
+
+    public Dialog GetWeightedRandomDialog()
+    {
+        if (data.dialogs == null || data.dialogs.Length == 0)
+            return null;
+
+        // 1️⃣ 전체 weight 합 구하기
+        float totalWeight = 0f;
+
+        for (int i = 0; i < data.dialogs.Length; i++)
+        {
+            if (data.dialogs[i] == null) continue;
+
+            // weight가 0 이하인 경우 방지
+            totalWeight += Mathf.Max(0f, data.dialogs[i].weight);
+        }
+
+        if (totalWeight <= 0f)
+            return data.dialogs[0]; // fallback
+
+        // 2️⃣ 랜덤 값 생성
+        float randomPoint = Random.Range(0f, totalWeight);
+
+        // 3️⃣ 누적하면서 선택
+        float current = 0f;
+
+        for (int i = 0; i < data.dialogs.Length; i++)
+        {
+            if (data.dialogs[i] == null) continue;
+
+            current += Mathf.Max(0f, data.dialogs[i].weight);
+
+            if (randomPoint <= current)
+                return data.dialogs[i];
+        }
+
+        // 안전 fallback (float 오차 대비)
+        return data.dialogs[data.dialogs.Length - 1];
     }
 }

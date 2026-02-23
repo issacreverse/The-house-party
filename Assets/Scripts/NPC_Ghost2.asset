@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e4b947ed51d19949b3dc55fdc4d4600, type: 3}
+  m_Name: NPC_Ghost2
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
+  preference: 2
+  npcType: 1
+  npcName: Ghost_M1
+  dialogs:
+  - text: Gruhhhhh....
+    weight: 1
+    condition: 0
+  - text: need...Blood...
+    weight: 1
+    condition: 0
+  - text: ARGGHHH
+    weight: 1
+    condition: 0
+  - text: DHnivwepurNWIE....
+    weight: 1
+    condition: 0
+  - text: Brainz...
+    weight: 1
+    condition: 0

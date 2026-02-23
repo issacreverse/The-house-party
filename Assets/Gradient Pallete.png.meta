@@ -1,0 +1,5087 @@
+fileFormatVersion: 2
+guid: e204e4ec8c828974da39fea3dd66fa9e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gradient Pallete_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0172fbbbc8b5cf40bd4b711b4e9bd67
+      internalID: -915439351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5676b4b85a345054986db7048d9752fe
+      internalID: 1286416577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2718966d865d40841adafab389b13f65
+      internalID: -521593401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6f5a63381a9d408e97ade9bbc8133
+      internalID: -1776544004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f390a01b03e24c968a1dd233e2a05
+      internalID: 2147482823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b0f27903b321842a6ade07b8e83bdd
+      internalID: -525699327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6c7218270974a4794c302d07a87cc8
+      internalID: -998953391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5760a370103e30418483e1b218a325d
+      internalID: 1641214920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9a50a405c28f469e375ed160da67d
+      internalID: 1139049837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dbbe640980fad4d8c136263d8929f7
+      internalID: 971104979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_10
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fded5a2928b4d45bcfdcdbd7f6dc2c
+      internalID: 498597170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b346fc939d374bd43975bbc403f82a48
+      internalID: -856754839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b98e670521cae54084531f74303bfb4
+      internalID: -1132539289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_13
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879d77f845f64d4195224775f387cb6
+      internalID: 429738149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51257a6eb86d8a34fb90035af8ea7f5d
+      internalID: -300038650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eea2dfafbf6174db9d392089eb6f74
+      internalID: 234257653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71df19fb1bdabd4bab0300ae7116736
+      internalID: -1911984883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_17
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d1a66747c2cd4d8d506f41f90a511
+      internalID: 1436509470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_18
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac7ca7ee2b9f734aa4fb26f2352bd54
+      internalID: -1622923578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f00d92a9c761f4dad5c43cb9cc08d2
+      internalID: -1149964865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_20
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab6c1a4c74be97429934f0a4127f3ea
+      internalID: 441640217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_21
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb80903b48d9145a9ee6cf1dbde0f6
+      internalID: -1530455150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_22
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd3920a43040c489180b431d3ad304
+      internalID: 1288966335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_23
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa2a28d92f6ceb4db9ff78eeaf6c629
+      internalID: -1076921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_24
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573e83484c026a445b7f9d57f288f8ac
+      internalID: 832001307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_25
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53943beb722dec64396333bb1cf9ac9b
+      internalID: 2074526824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_26
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057d212455f08fa46b36cba936ba2a81
+      internalID: 38437032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_27
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7950f57d98ef9c4fa7fb54b26676822
+      internalID: 163679741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_28
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f14306ee44542649a29655a60d01757
+      internalID: 189292429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_29
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa1ecfcc61a2a649a980b0717c9321f
+      internalID: 2087884262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_30
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2fa5904ae535c439538875fff3c6f7
+      internalID: -366223022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_31
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dba7c96db26164a98b752bd1b498ec
+      internalID: 1116897758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_32
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fde600516405443bae51dc730a4bc8
+      internalID: -1389783775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_33
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01349c08b42e4440b602e285d4ce850
+      internalID: 2124312598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_34
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c19b4cadbaa2d45bd09fd7ae711163
+      internalID: 391774623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_35
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1707
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa0256b12f9384c9db11b5265bc8cf
+      internalID: 1293867782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7a98d0da81ce94185c87c2e5b01351
+      internalID: 1660005457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29efdfe99174ac4092711065ed0b8fb
+      internalID: -1047263643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc995b8e22568d48bacb1033dede846
+      internalID: 1692434588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_39
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ad438854ce4d0468e4c9e88db575d0
+      internalID: 113040826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d22b4644dd09447b48a9ebeb829fa7
+      internalID: 668487464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0707831f3948a458b4bf2f2b88bec7
+      internalID: 1771965407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_42
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d3af78f0591264c821370426805c00
+      internalID: -2064000903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_43
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c044507debd274586bde19171c9746
+      internalID: 886147919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_44
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a304a2dc952bd749a9bb71eee4c13f0
+      internalID: 1312723317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_45
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c55e7281c811e04e90589abe197b848
+      internalID: -376612739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_46
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f6062e07536043a46df4022ac4f1a
+      internalID: -167192117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_47
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983c97c3b5524134bbb1175a2c6e8798
+      internalID: 2040048459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_48
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae571064341a1b40bc5d19cccf2d4aa
+      internalID: -1826329702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_49
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf301b21f4a1f544fa65f80e32191b02
+      internalID: -1609541584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_50
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e898cf741a735c548aa72948954fdd0e
+      internalID: -1122487938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_51
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f45a119764f08547aac621f1a2775eb
+      internalID: 1982238589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_52
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7189a6dface561547b0de55a6ce2eec9
+      internalID: 911016916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_53
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387ba0aab905b274893af97e544bda00
+      internalID: 1203322177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_54
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb477ebac749804bb30d36d2b5c9286
+      internalID: 369554685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_55
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9913329f26934ea2da2b31083d2d1
+      internalID: 1847495024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_56
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2549b4f466f0b4f81875f37391402e
+      internalID: -2072361955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_57
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3404ee105bb01fe4982ec9cf164882d9
+      internalID: -44300890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_58
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3a114826026f4083115a0fd44679c
+      internalID: -685848898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_59
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66137a9fdb6ccec44a3ee6943f9b7005
+      internalID: 57035332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_60
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d703ccfbadaeb4b8522286991b3050
+      internalID: -1392877926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_61
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4de4ed1abff6418f9b0804a08dcf3
+      internalID: 1219405439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_62
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16172e1bbe76d7a4ba59bad190e0e8e0
+      internalID: -1908357976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_63
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e15509275aaf7b488fe97ea9ca52d47
+      internalID: -1330335382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_64
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e53426431233504b83fe54c96ef5dec
+      internalID: 1721572520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_65
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c308183b357d1c341bfc3d05d78c23e8
+      internalID: 635090951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_66
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42189e05a7501584fbb13c4f834960fa
+      internalID: -2117895187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_67
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63259a5312e9324f920d6d74f0f6032
+      internalID: -104752690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_68
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9fac0973d2dab4889cb3c75ef65102
+      internalID: -2142146209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_69
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e41b15610c9d74c9beed85ad5d4acd
+      internalID: -1962249298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_70
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4cd2668e485aa4ca006efb4df6a81c
+      internalID: -1961795548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_71
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1366
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b45859bc9785e4885f91b2c0b0b1c0
+      internalID: -415938699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7443cca2fc73081439d0ed071691f67a
+      internalID: 1272497034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_73
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ef5d6b932e3c4cadbdcbfa5da928e
+      internalID: 626714003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_74
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3190cdc6e0306408107df1c5944334
+      internalID: -1412932293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_75
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa228f23aedd26f4ab5ff7741ff0ab1a
+      internalID: -770046478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_76
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99006bafe04604841a8e389f02092bd5
+      internalID: 1985310262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_77
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4437a4274ef81404db66fca6293ee027
+      internalID: 343949339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_78
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef6a543fe753db408a5dce28279ff86
+      internalID: -1311155114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_79
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba7b9c4e24cacc4e91c01ce0b40b60d
+      internalID: -668764657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_80
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136e0987207b4840b97d0ce9cc9e151
+      internalID: 1937994884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_81
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e05dbcb781c74d4386b2d2cb90bcbd3
+      internalID: -1892191293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_82
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29625597059d3ba4c8af4ba8e3091236
+      internalID: -1121355944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_83
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620df1e1be242e542b480cefc7b128e3
+      internalID: 1985853995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_84
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaa3eae36dc596439e7210bdf35b6cf
+      internalID: -1953277349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_85
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c63128acdcc124a90b0dcd3564ca3c
+      internalID: 1034759204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_86
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eea6340c8de714f8f2bb705f9a977d
+      internalID: -471814767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_87
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15afc1a58cec5744d9e060b2c0050c41
+      internalID: -1698985008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_88
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d02bfd9d521bf43b1c5259f3cc7d70
+      internalID: 801873654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_89
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33df9a8862ef932489025bebdd0aa277
+      internalID: -1166298756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_90
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf425cd22898b9b44ac4c8a37e625c64
+      internalID: 1446879437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_91
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60fd153d0362c489485c3bc3c0d518
+      internalID: -1647002007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_92
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2850c17166b56db4e8c112005242af7e
+      internalID: -468402817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_93
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbbb72d0962b5541a69159a338d3d46
+      internalID: -339879548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_94
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81691ea6d8cc54e9570f21cb54f030
+      internalID: 1127151817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_95
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ab3834c0c29d24797dc6fad6c7d980
+      internalID: 1784354865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_96
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b85bebf28d429489c1fb7cf21a6cb6
+      internalID: -1240628737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_97
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172778f66d59cc64c95a6fe344e5e9a7
+      internalID: 1733967763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_98
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4997a786bb020142a86ea3190bc90df
+      internalID: 1805161929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_99
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39d393f907b5e441a7387d460870379
+      internalID: -272347162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_100
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5913fd76513294a86b57a410e52378
+      internalID: -1839574168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_101
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d09715dcb776bc4885a42b6f0a15978
+      internalID: 543846100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_102
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0adf1cc1488d84786005a444dc24b6
+      internalID: 1393624306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_103
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752d125a9aacbe5438946df37e6b6bf3
+      internalID: 2060868450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_104
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4855e0478392418bfaa971e7b3a72
+      internalID: -1765622153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_105
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f2d9b3d7676744aaedf0c7995a495f
+      internalID: -1511318450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_106
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d1323889ef2a048b7280c68cbe69fc
+      internalID: 1679987440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_107
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1025
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e30ce3d8464734b9402fff4a6a90e3
+      internalID: 1690981009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be978aa8e8b1a842bba0fd69156ca77
+      internalID: 459370216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_109
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ba641494efdf49a194e9c1487c567
+      internalID: -668213045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_110
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046d367f339ba0446b7f013279dfb876
+      internalID: -389052294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_111
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d085ffa4f6dc4c40af76130d72bd5ad
+      internalID: 1301878765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_112
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d101c16ad19908b4d85fa6fa35a9fc03
+      internalID: 18394006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_113
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc091c3f3da22d4bb389fa7ab229f89
+      internalID: 281665225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_114
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff51d2ddf8ae16498a1056f974e8cd4
+      internalID: 1071372492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_115
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b301d813aca3b40b48de61d29649cd
+      internalID: -994485120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_116
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952cadb55a38467429c2810838e968f0
+      internalID: -1481524855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_117
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0bfe8d572467d4ca611fe8dfd503bc
+      internalID: -1589100263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_118
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf6d69225260bb4ebd9f4d86c4d54ff
+      internalID: -1622214949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_119
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0003c52c7ef6062469b24a8c1cd54b96
+      internalID: -371496056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_120
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fca86ae7fc40de4eafc2a3887fbcafe
+      internalID: -2042009015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_121
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ec61b3bfcee2c4f82f4626376a3d84
+      internalID: 644088843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_122
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9246e8d399f2547a2aab10ab2a9150
+      internalID: 2111372532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_123
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd73e55db055e7499e51c994674ffb8
+      internalID: -334852569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_124
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9087217c7c59148b13ac4b26238188
+      internalID: 1902250525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_125
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783fd44f28e087d4c9258bc601af32cb
+      internalID: 1959385301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_126
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ba1f1d35d0e84ebe8d371dac96ccc
+      internalID: -104981917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_127
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabe60428ebb4b24a9b099a6e8ec81c5
+      internalID: -1547334200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_128
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231c8c21075f7924c87a2311cd723537
+      internalID: 581683962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_129
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566cc73ff44c03145a67bda45f552cf0
+      internalID: 852887394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_130
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05bcc53a3b88114aa0e8771e025a743
+      internalID: 2050343236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_131
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93aa4edd7c4898429cf6f50403d8219
+      internalID: 147455181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_132
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018f77898081e714ba32b98a29e18454
+      internalID: 1464692517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_133
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c640c11e2cf8468c17c60e4a61793
+      internalID: -43710509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_134
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629006e0fdcc49540bcc3eac0d9b190a
+      internalID: -542915399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_135
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6505970b36508e4c831a179c05a0c4f
+      internalID: 394951545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_136
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3b74c85563ef943b354e14a08e026e
+      internalID: 1393165279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_137
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1617fcde4700da44d82bf354d25081cd
+      internalID: -2079582331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_138
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc1ad7cc9e58424b9e2d48aa17ee86e
+      internalID: 421014710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_139
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8627d5e948bff3641bb72919abe795a6
+      internalID: -1440873421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_140
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f65be8a9bce0e48ac843197b35cd62
+      internalID: 351843450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_141
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350056511c06ab948abd5fec7ee41c83
+      internalID: -982179655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_142
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8705318aadce64a93a5e1a1f5d2461
+      internalID: 98338735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_143
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 684
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab76d72e84e42c49a6c75bc4f35d471
+      internalID: 1484410708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf872586ff200994b9c98a3a5fb995a8
+      internalID: 881545193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_145
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc975d246ce9f4ab55afe9a358a6be
+      internalID: 1193791605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_146
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b12da76077b2fc4abfcc989c7041f3a
+      internalID: 1555413643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_147
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c302b6fa1a7be438bfea469171e172
+      internalID: 1193708290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_148
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2892fb0bdd99e2438ff1b2063ddd7ed
+      internalID: -1418558354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_149
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb10ec4c5ea00489358f4f081b0c07
+      internalID: 334779520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_150
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbc5c275376ef942b482d4a5bf3ed43
+      internalID: 1330756549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_151
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faf334904c712e48a572af7934f8279
+      internalID: -1582884350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_152
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a9738a3c4e11546bc65066e0e453b1
+      internalID: 1046199458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_153
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce1488bac788384fbcc82243e3fd9b4
+      internalID: -714184754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_154
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c80229a9b03434991cbd259a1466b4
+      internalID: 1865504743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_155
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cde3e836a26c343bf08c6a53fda4e7
+      internalID: 1888804227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_156
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afaf6cae8b4d6f41b66980c39e1c9a3
+      internalID: -464895102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_157
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c2fe31c035134993eddd09b69d8f6
+      internalID: -1318568735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_158
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7925eb7e1951b50469b9403f63ba636e
+      internalID: -1541491550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_159
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8039a7474ee922448b531e17b53fa64c
+      internalID: 909068815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_160
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4221002a486d46945b4ce22973cc1912
+      internalID: -1092867370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_161
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d87fc5e2f1745498f8e83e3b222319
+      internalID: 816660448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_162
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eeb6db25e6f3448bd52203233453b5
+      internalID: 2033948121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_163
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4cdbee35dde04d8de9dc6bec22429
+      internalID: 1971742640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_164
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262e0ee94c19a4944b122f9eee141566
+      internalID: 545025668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_165
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b1b8ad1457470449d5b7901dfc84a2
+      internalID: 2071894453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_166
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76e936242870184bbaaef135e6d9b08
+      internalID: 695219573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_167
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943ec6e08f512044883d7de8be80a67c
+      internalID: -704073850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_168
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd628411f98884e846b21ee0b2cdad
+      internalID: -763856697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_169
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d203db588fc29341b6fc39d397548cf
+      internalID: 610853350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_170
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733034b6e8e9e7b40910e86c05beea88
+      internalID: -1363421427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_171
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbdfb54bde3fa34aa589763c34ea5cf
+      internalID: 106201043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_172
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeae3bcb2ffefa4bb4bbef782597c5a
+      internalID: -1391931746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_173
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03e0a581741c7409e51e91e10e86a2
+      internalID: 427855362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_174
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd609cf6a37e8a4db76ebb22888bedb
+      internalID: 1179201478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_175
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130f11bc7340f045bb7d4564b29db6d
+      internalID: 1178602110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_176
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b396fe02e913fc48984cf5c29a32af4
+      internalID: 614890370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_177
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ba81ffccc4084db8fa66611b61300
+      internalID: -906634909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_178
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763736c704e8b64ab07fe10207cd9c9
+      internalID: -1897418903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_179
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 343
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2321800475c8fa24c84a5af803196b28
+      internalID: 985112065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb702e5abab9ad4b91030c326549157
+      internalID: 1464614209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_181
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf4718ba953fa4c817f1e1011f4f3a
+      internalID: -1643473492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_182
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2c85a3e14e47949af49224e0101a0f
+      internalID: 1745425264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_183
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e39c51d08a5f42b645bddbd0a8ecd
+      internalID: 1445236477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_184
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a1e04b41452a24bb3bb1f498e0d415
+      internalID: 193525506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_185
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c8cdaf79105547a7ee4d7247128ec
+      internalID: -679893753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_186
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9b0f900204efa4a855f9fb30b9b9a1
+      internalID: 1133098884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_187
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc2e8a57ebd5e468b06d07a189bd67
+      internalID: 1144925618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_188
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b8f3bafc84c2347ae90efefdafe1c4
+      internalID: -1617107520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_189
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d195a7763b40684984ce7fb6cd3b931
+      internalID: -1382249625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_190
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987f70657daa86642a9220f8f699797d
+      internalID: -263031337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_191
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0babc0f7dfe0d5f4e882347cddbf7045
+      internalID: 1331675430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_192
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04492effa9c96e04f994e71a02869e7a
+      internalID: -71222647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_193
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325757c5c3a15234fb79e813e111ec24
+      internalID: 1332957470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_194
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161d6c475fdbf346af101338e16653a
+      internalID: -49748517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_195
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d410f91a96ebe49b671ebe46684a75
+      internalID: 193308400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_196
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6cf51979c3ec843ab048743f40e1e0
+      internalID: 1467467986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_197
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ced27519394c284182ffebb957b2f95
+      internalID: 1666856614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_198
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3c3f83d977c34d9db1b5bb84deb30
+      internalID: -1646953954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_199
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c501bf9318788408bb13d7b22f539e
+      internalID: -1780952931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_200
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a918cfe04972458e4d6b16b4c6f54
+      internalID: -2112783311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_201
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eed7ec138fdfc49b20d0a4d29b4734
+      internalID: -172957089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_202
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad322b5b491294f9aabff5c8ec0818
+      internalID: -1984803517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_203
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a51ecdacfd14b45ad1416fabda6cbb
+      internalID: -1184872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_204
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c708337383b042ab0c7c4e7c91dd6
+      internalID: -797174936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_205
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93454dbb27b5d07499a2b891653e99c2
+      internalID: -1764478244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_206
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7cb253d87107d40a58f8430574d04c
+      internalID: -1732599323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_207
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff9fc15acc9cdb48867cf72134a9caf
+      internalID: 699496624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_208
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2ec0a2ae7f7cd40920679738261297
+      internalID: -329702269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_209
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8b089606d86946bf9e188fd0d4afe
+      internalID: -2113186101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_210
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef66b44ff957b9642b82a979cc8449f5
+      internalID: -372411289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_211
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a431e0f7259404a81a15514447f737
+      internalID: -1054481636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_212
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1334ac8b676c5e8498e6cf4cb0f69161
+      internalID: -511396539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_213
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632ac45d21da3a149b3b1ec30136fc7b
+      internalID: -1828802607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_214
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e1b20fcc27dc1479969c724d0e4cb8
+      internalID: -747685883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient Pallete_215
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2
+        width: 51
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b4f473b4670924693f0a42d74ca212
+      internalID: -1718025343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 187baf48def8a4a4c882f50175b83471
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":36.0,"y":6.0},"gridSpriteSize":{"x":51.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":6.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Gradient Pallete_0: -915439351
+      Gradient Pallete_1: 1286416577
+      Gradient Pallete_10: 498597170
+      Gradient Pallete_100: -1839574168
+      Gradient Pallete_101: 543846100
+      Gradient Pallete_102: 1393624306
+      Gradient Pallete_103: 2060868450
+      Gradient Pallete_104: -1765622153
+      Gradient Pallete_105: -1511318450
+      Gradient Pallete_106: 1679987440
+      Gradient Pallete_107: 1690981009
+      Gradient Pallete_108: 459370216
+      Gradient Pallete_109: -668213045
+      Gradient Pallete_11: -856754839
+      Gradient Pallete_110: -389052294
+      Gradient Pallete_111: 1301878765
+      Gradient Pallete_112: 18394006
+      Gradient Pallete_113: 281665225
+      Gradient Pallete_114: 1071372492
+      Gradient Pallete_115: -994485120
+      Gradient Pallete_116: -1481524855
+      Gradient Pallete_117: -1589100263
+      Gradient Pallete_118: -1622214949
+      Gradient Pallete_119: -371496056
+      Gradient Pallete_12: -1132539289
+      Gradient Pallete_120: -2042009015
+      Gradient Pallete_121: 644088843
+      Gradient Pallete_122: 2111372532
+      Gradient Pallete_123: -334852569
+      Gradient Pallete_124: 1902250525
+      Gradient Pallete_125: 1959385301
+      Gradient Pallete_126: -104981917
+      Gradient Pallete_127: -1547334200
+      Gradient Pallete_128: 581683962
+      Gradient Pallete_129: 852887394
+      Gradient Pallete_13: 429738149
+      Gradient Pallete_130: 2050343236
+      Gradient Pallete_131: 147455181
+      Gradient Pallete_132: 1464692517
+      Gradient Pallete_133: -43710509
+      Gradient Pallete_134: -542915399
+      Gradient Pallete_135: 394951545
+      Gradient Pallete_136: 1393165279
+      Gradient Pallete_137: -2079582331
+      Gradient Pallete_138: 421014710
+      Gradient Pallete_139: -1440873421
+      Gradient Pallete_14: -300038650
+      Gradient Pallete_140: 351843450
+      Gradient Pallete_141: -982179655
+      Gradient Pallete_142: 98338735
+      Gradient Pallete_143: 1484410708
+      Gradient Pallete_144: 881545193
+      Gradient Pallete_145: 1193791605
+      Gradient Pallete_146: 1555413643
+      Gradient Pallete_147: 1193708290
+      Gradient Pallete_148: -1418558354
+      Gradient Pallete_149: 334779520
+      Gradient Pallete_15: 234257653
+      Gradient Pallete_150: 1330756549
+      Gradient Pallete_151: -1582884350
+      Gradient Pallete_152: 1046199458
+      Gradient Pallete_153: -714184754
+      Gradient Pallete_154: 1865504743
+      Gradient Pallete_155: 1888804227
+      Gradient Pallete_156: -464895102
+      Gradient Pallete_157: -1318568735
+      Gradient Pallete_158: -1541491550
+      Gradient Pallete_159: 909068815
+      Gradient Pallete_16: -1911984883
+      Gradient Pallete_160: -1092867370
+      Gradient Pallete_161: 816660448
+      Gradient Pallete_162: 2033948121
+      Gradient Pallete_163: 1971742640
+      Gradient Pallete_164: 545025668
+      Gradient Pallete_165: 2071894453
+      Gradient Pallete_166: 695219573
+      Gradient Pallete_167: -704073850
+      Gradient Pallete_168: -763856697
+      Gradient Pallete_169: 610853350
+      Gradient Pallete_17: 1436509470
+      Gradient Pallete_170: -1363421427
+      Gradient Pallete_171: 106201043
+      Gradient Pallete_172: -1391931746
+      Gradient Pallete_173: 427855362
+      Gradient Pallete_174: 1179201478
+      Gradient Pallete_175: 1178602110
+      Gradient Pallete_176: 614890370
+      Gradient Pallete_177: -906634909
+      Gradient Pallete_178: -1897418903
+      Gradient Pallete_179: 985112065
+      Gradient Pallete_18: -1622923578
+      Gradient Pallete_180: 1464614209
+      Gradient Pallete_181: -1643473492
+      Gradient Pallete_182: 1745425264
+      Gradient Pallete_183: 1445236477
+      Gradient Pallete_184: 193525506
+      Gradient Pallete_185: -679893753
+      Gradient Pallete_186: 1133098884
+      Gradient Pallete_187: 1144925618
+      Gradient Pallete_188: -1617107520
+      Gradient Pallete_189: -1382249625
+      Gradient Pallete_19: -1149964865
+      Gradient Pallete_190: -263031337
+      Gradient Pallete_191: 1331675430
+      Gradient Pallete_192: -71222647
+      Gradient Pallete_193: 1332957470
+      Gradient Pallete_194: -49748517
+      Gradient Pallete_195: 193308400
+      Gradient Pallete_196: 1467467986
+      Gradient Pallete_197: 1666856614
+      Gradient Pallete_198: -1646953954
+      Gradient Pallete_199: -1780952931
+      Gradient Pallete_2: -521593401
+      Gradient Pallete_20: 441640217
+      Gradient Pallete_200: -2112783311
+      Gradient Pallete_201: -172957089
+      Gradient Pallete_202: -1984803517
+      Gradient Pallete_203: -1184872335
+      Gradient Pallete_204: -797174936
+      Gradient Pallete_205: -1764478244
+      Gradient Pallete_206: -1732599323
+      Gradient Pallete_207: 699496624
+      Gradient Pallete_208: -329702269
+      Gradient Pallete_209: -2113186101
+      Gradient Pallete_21: -1530455150
+      Gradient Pallete_210: -372411289
+      Gradient Pallete_211: -1054481636
+      Gradient Pallete_212: -511396539
+      Gradient Pallete_213: -1828802607
+      Gradient Pallete_214: -747685883
+      Gradient Pallete_215: -1718025343
+      Gradient Pallete_22: 1288966335
+      Gradient Pallete_23: -1076921238
+      Gradient Pallete_24: 832001307
+      Gradient Pallete_25: 2074526824
+      Gradient Pallete_26: 38437032
+      Gradient Pallete_27: 163679741
+      Gradient Pallete_28: 189292429
+      Gradient Pallete_29: 2087884262
+      Gradient Pallete_3: -1776544004
+      Gradient Pallete_30: -366223022
+      Gradient Pallete_31: 1116897758
+      Gradient Pallete_32: -1389783775
+      Gradient Pallete_33: 2124312598
+      Gradient Pallete_34: 391774623
+      Gradient Pallete_35: 1293867782
+      Gradient Pallete_36: 1660005457
+      Gradient Pallete_37: -1047263643
+      Gradient Pallete_38: 1692434588
+      Gradient Pallete_39: 113040826
+      Gradient Pallete_4: 2147482823
+      Gradient Pallete_40: 668487464
+      Gradient Pallete_41: 1771965407
+      Gradient Pallete_42: -2064000903
+      Gradient Pallete_43: 886147919
+      Gradient Pallete_44: 1312723317
+      Gradient Pallete_45: -376612739
+      Gradient Pallete_46: -167192117
+      Gradient Pallete_47: 2040048459
+      Gradient Pallete_48: -1826329702
+      Gradient Pallete_49: -1609541584
+      Gradient Pallete_5: -525699327
+      Gradient Pallete_50: -1122487938
+      Gradient Pallete_51: 1982238589
+      Gradient Pallete_52: 911016916
+      Gradient Pallete_53: 1203322177
+      Gradient Pallete_54: 369554685
+      Gradient Pallete_55: 1847495024
+      Gradient Pallete_56: -2072361955
+      Gradient Pallete_57: -44300890
+      Gradient Pallete_58: -685848898
+      Gradient Pallete_59: 57035332
+      Gradient Pallete_6: -998953391
+      Gradient Pallete_60: -1392877926
+      Gradient Pallete_61: 1219405439
+      Gradient Pallete_62: -1908357976
+      Gradient Pallete_63: -1330335382
+      Gradient Pallete_64: 1721572520
+      Gradient Pallete_65: 635090951
+      Gradient Pallete_66: -2117895187
+      Gradient Pallete_67: -104752690
+      Gradient Pallete_68: -2142146209
+      Gradient Pallete_69: -1962249298
+      Gradient Pallete_7: 1641214920
+      Gradient Pallete_70: -1961795548
+      Gradient Pallete_71: -415938699
+      Gradient Pallete_72: 1272497034
+      Gradient Pallete_73: 626714003
+      Gradient Pallete_74: -1412932293
+      Gradient Pallete_75: -770046478
+      Gradient Pallete_76: 1985310262
+      Gradient Pallete_77: 343949339
+      Gradient Pallete_78: -1311155114
+      Gradient Pallete_79: -668764657
+      Gradient Pallete_8: 1139049837
+      Gradient Pallete_80: 1937994884
+      Gradient Pallete_81: -1892191293
+      Gradient Pallete_82: -1121355944
+      Gradient Pallete_83: 1985853995
+      Gradient Pallete_84: -1953277349
+      Gradient Pallete_85: 1034759204
+      Gradient Pallete_86: -471814767
+      Gradient Pallete_87: -1698985008
+      Gradient Pallete_88: 801873654
+      Gradient Pallete_89: -1166298756
+      Gradient Pallete_9: 971104979
+      Gradient Pallete_90: 1446879437
+      Gradient Pallete_91: -1647002007
+      Gradient Pallete_92: -468402817
+      Gradient Pallete_93: -339879548
+      Gradient Pallete_94: 1127151817
+      Gradient Pallete_95: 1784354865
+      Gradient Pallete_96: -1240628737
+      Gradient Pallete_97: 1733967763
+      Gradient Pallete_98: 1805161929
+      Gradient Pallete_99: -272347162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

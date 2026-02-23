@@ -15,3 +15,19 @@ MonoBehaviour:
   preference: 1
   npcType: 0
   npcName: Ghost_H1
+  dialogs:
+  - text: Must... Eat...
+    weight: 1
+    condition: 0
+  - text: Hungry...
+    weight: 1
+    condition: 0
+  - text: Gruhhhhh....
+    weight: 1
+    condition: 0
+  - text: What.
+    weight: 1
+    condition: 0
+  - text: Arggghhh..
+    weight: 1
+    condition: 0
