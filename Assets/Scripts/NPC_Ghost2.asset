@@ -16,18 +16,18 @@ MonoBehaviour:
   npcType: 1
   npcName: Ghost_M1
   dialogs:
-  - text: Gruhhhhh....
+  - text: Do you see? That light...
     weight: 1
     condition: 0
-  - text: need...Blood...
+  - text: We will all be free soon.
     weight: 1
     condition: 0
-  - text: ARGGHHH
+  - text: Can you hear them below us?
     weight: 1
     condition: 0
-  - text: DHnivwepurNWIE....
+  - text: For our sentence, a life of torture.
     weight: 1
     condition: 0
-  - text: Brainz...
+  - text: Please... Free us Father...
     weight: 1
     condition: 0

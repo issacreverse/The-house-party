@@ -16,18 +16,18 @@ MonoBehaviour:
   npcType: 0
   npcName: Ghost_H1
   dialogs:
-  - text: Must... Eat...
+  - text: They can't cut me off of SODA!
     weight: 1
     condition: 0
-  - text: Hungry...
+  - text: This party sucks! Where the chicks at?
     weight: 1
     condition: 0
-  - text: Gruhhhhh....
+  - text: It's so hard to see in this thing!
     weight: 1
     condition: 0
-  - text: What.
+  - text: I've had at least a dozen people trip over me at this point
     weight: 1
     condition: 0
-  - text: Arggghhh..
+  - text: I probably should have bought a new blanket instead of using my bedsheet...
     weight: 1
     condition: 0
