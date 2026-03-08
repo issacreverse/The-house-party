@@ -150,6 +150,7 @@ public class NPC : MonoBehaviour
         //dialog start
         currentDialog = GetWeightedRandomDialog().text;
         UIManager.Instance.UI_dialogEnter(currentDialog);
+        AudioManager.Instance.PlayVoiceSource();
         
         yield return new WaitForSeconds(2f);
         isDoneTalking = true;

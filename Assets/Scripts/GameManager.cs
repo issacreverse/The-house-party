@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -50,6 +51,14 @@ public class GameManager : MonoBehaviour
 
         RegisterNPC();
         InitialUIUpdate();
+
+        // for prototype
+        SceneManager.sceneLoaded += ShowResults;
+    }
+    // for prototype
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= ShowResults;
     }
 
     // Update is called once per frame
@@ -104,19 +113,9 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        SceneManager.LoadScene("RoundOver");
+        SceneManager.LoadScene("RoundOverScene");
 
-        if(monsterTagged != 0)
-            Debug.Log("You executed " + monsterTagged + " monsters.");
-        if(humanTagged != 0)
-            Debug.Log("You killed " + humanTagged + " inocent people.");
-        if(monsterNotTagged != 0)
-            Debug.Log("You let " + monsterNotTagged + " monsters go away...");
         
-        if(monsterTagged == monsterCount)
-            Debug.Log("Looks like you saved another halloween. Well Done.");
-        else    
-            Debug.Log("You hear SCREAMING VOICES. Happy Halloween......");
 
         //처형씬으로 전환, 태그된 npc들 앞에 세워놓음
         //monster - tagged : success
@@ -162,5 +161,51 @@ public class GameManager : MonoBehaviour
     public void InitialUIUpdate()
     {
         OnTagsLeftChanged?.Invoke();
+    }
+
+    // for prototype
+    public void ShowResults(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.name != "RoundOverScene")
+            return;
+
+        StartCoroutine(ShowResultWithDelay());
+    }
+    // for prototype
+    public IEnumerator ShowResultWithDelay()
+    {
+        GameObject UIManager = GameObject.Find("UIManager");
+        UIManager_2 _UI = UIManager.GetComponent<UIManager_2>();
+        
+        if(monsterTagged != 0)
+        {
+            yield return new WaitForSeconds(2.5f);
+            _UI.Showtext("You executed " + monsterTagged + " monsters.");
+        }
+           
+        if(humanTagged != 0)
+        {
+            yield return new WaitForSeconds(2.5f);
+            _UI.Showtext("You killed " + humanTagged + " inocent people.");
+        }
+            
+        if(monsterNotTagged != 0)
+        {
+            yield return new WaitForSeconds(2.5f);
+            _UI.Showtext("You let " + monsterNotTagged + " monsters go away...");
+        }
+            
+        
+        if(monsterTagged == monsterCount)
+        {
+            yield return new WaitForSeconds(3.5f);
+            _UI.Showtext("<color=green>Looks like you saved another halloween. Well Done.</color>");
+        }
+            
+        else
+        {
+            yield return new WaitForSeconds(3.5f);
+            _UI.Showtext("<color=red>You hear SCREAMING VOICES...Game Over.</color>");
+        }
     }
 }
