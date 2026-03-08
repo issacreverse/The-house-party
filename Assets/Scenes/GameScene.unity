@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 1798996410376478745, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
     - target: {fileID: 3269476938492797793, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_Name
       value: GhostV2 (1)
@@ -1246,6 +1250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostV4
       objectReference: {fileID: 0}
+    - target: {fileID: 7925473546694158675, guid: fa1104223c0145e47a3856e565dc5074, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 40fea2c003cc06a4c93f8c6588db8ad0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1264,6 +1272,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 5964432399965390200, guid: 78acc6af3ac5ea542b43cd87ebefc8c1, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 40fea2c003cc06a4c93f8c6588db8ad0, type: 2}
     - target: {fileID: 7452676638208427520, guid: 78acc6af3ac5ea542b43cd87ebefc8c1, type: 3}
       propertyPath: m_Name
       value: GhostV5
@@ -1881,6 +1893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 5434707741144890088, guid: 3bf0b8e31f14bf1459a0e60066ce84d5, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
     - target: {fileID: 7344526981277406788, guid: 3bf0b8e31f14bf1459a0e60066ce84d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.63555
@@ -2726,6 +2742,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 1798996410376478745, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
     - target: {fileID: 3269476938492797793, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_Name
       value: GhostV2 (3)
@@ -2830,6 +2850,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 4688365856711771605, guid: 80306707779da714f92078879b7f470a, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 40fea2c003cc06a4c93f8c6588db8ad0, type: 2}
     - target: {fileID: 7794515091330208887, guid: 80306707779da714f92078879b7f470a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2927,6 +2951,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 1798996410376478745, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
     - target: {fileID: 3269476938492797793, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_Name
       value: GhostV2 (2)
@@ -3180,6 +3208,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338478135}
     m_Modifications:
+    - target: {fileID: 1798996410376478745, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
     - target: {fileID: 3269476938492797793, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_Name
       value: GhostV2

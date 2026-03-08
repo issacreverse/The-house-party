@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e4b947ed51d19949b3dc55fdc4d4600, type: 3}
-  m_Name: NPC_Ghost2
+  m_Name: NPC_Ghost_Monster
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   preference: 2
   npcType: 1
   npcName: Ghost_M1
   dialogs:
-  - text: Gruhhhhh....
+  - text: Do you see? That light...
     weight: 1
     condition: 0
-  - text: need...Blood...
+  - text: We will all be free soon.
     weight: 1
     condition: 0
-  - text: ARGGHHH
+  - text: Can you hear them below us?
     weight: 1
     condition: 0
-  - text: DHnivwepurNWIE....
+  - text: For our sentence, a life of torture.
     weight: 1
     condition: 0
-  - text: Brainz...
+  - text: Please... Free us Father...
     weight: 1
     condition: 0
