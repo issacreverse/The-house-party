@@ -19,7 +19,7 @@ MonoBehaviour:
   - text: They can't cut me off of SODA!
     weight: 1
     condition: 0
-  - text: This party sucks! Where the chicks at?
+  - text: This party SUCKS! Where the chicks at?
     weight: 1
     condition: 0
   - text: It's so hard to see in this thing!
