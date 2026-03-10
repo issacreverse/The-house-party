@@ -140,7 +140,7 @@ public class PlayerController : MonoBehaviour
     }
     private void HandleZoom()
     {
-        if(Input.GetMouseButton(1))
+        if(Input.GetMouseButton(1) || Input.GetKey(KeyCode.LeftShift))
         {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, zoomFOV, Time.deltaTime * zoomSpeed);
             UIManager.Instance.UI_ZoomScopeEnter();
