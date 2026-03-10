@@ -11,10 +11,10 @@ PrefabInstance:
     - target: {fileID: 4667758871991646449, guid: fa1104223c0145e47a3856e565dc5074, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 31671b9a7e5932446827df075c9ae79d, type: 2}
+      objectReference: {fileID: -5578258969677808813, guid: 40efe6374dade1e4994217da366d5957, type: 3}
     - target: {fileID: 4862205027751265791, guid: fa1104223c0145e47a3856e565dc5074, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.88385
+      value: -43.38385
       objectReference: {fileID: 0}
     - target: {fileID: 4862205027751265791, guid: fa1104223c0145e47a3856e565dc5074, type: 3}
       propertyPath: m_LocalPosition.y
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6364750050898569771, guid: fa1104223c0145e47a3856e565dc5074, type: 3}
       propertyPath: m_Name
-      value: GhostV5
+      value: M_GhostV5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

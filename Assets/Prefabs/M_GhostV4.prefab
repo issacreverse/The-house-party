@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 7794515091330208887, guid: 80306707779da714f92078879b7f470a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 77f4bbfb2a114074ba93cc6ecac503ef, type: 2}
+      objectReference: {fileID: -5578258969677808813, guid: 40efe6374dade1e4994217da366d5957, type: 3}
     - target: {fileID: 8040788375859259769, guid: 80306707779da714f92078879b7f470a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.8466
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8410676436173620909, guid: 80306707779da714f92078879b7f470a, type: 3}
       propertyPath: m_Name
-      value: GhostV4
+      value: M_GhostV4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

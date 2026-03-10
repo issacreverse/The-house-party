@@ -71,7 +71,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3200bcc81d4868f49bd0afca6f50701f, type: 2}
+  - {fileID: 2100000, guid: 49a38f9c1c9b95a4fb4b6b08e7c88ef8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -159,10 +159,10 @@ MonoBehaviour:
   isMoving: 0
   navigationPaused: 0
   duration: 1.2
-  data: {fileID: 11400000, guid: 3b8c864a1a079b345ad33727370bbb91, type: 2}
+  data: {fileID: 11400000, guid: 632a17850f4529d44b8871456456f572, type: 2}
   currentPOIId: 0
   currentPOISlot: 0
-  givenDwellTime: 2
+  givenDwellTime: 1
   currentTime: 0
   isTimeRunning: 1
   isTagged: 0
@@ -203,7 +203,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 9134188060362226064}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.20533839
+  m_Radius: 0.24
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50

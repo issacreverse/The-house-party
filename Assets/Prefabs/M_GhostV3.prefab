@@ -11,18 +11,18 @@ PrefabInstance:
     - target: {fileID: 1798996410376478745, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: data
       value: 
-      objectReference: {fileID: 11400000, guid: e7855c9dfe164dd45932263108f924fd, type: 2}
+      objectReference: {fileID: 11400000, guid: 40fea2c003cc06a4c93f8c6588db8ad0, type: 2}
     - target: {fileID: 3269476938492797793, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_Name
-      value: GhostV3
+      value: M_GhostV3
       objectReference: {fileID: 0}
     - target: {fileID: 3876636594961772987, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 49a38f9c1c9b95a4fb4b6b08e7c88ef8, type: 2}
+      objectReference: {fileID: -5578258969677808813, guid: 40efe6374dade1e4994217da366d5957, type: 3}
     - target: {fileID: 3923097281783336117, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.58448
+      value: -44.58448
       objectReference: {fileID: 0}
     - target: {fileID: 3923097281783336117, guid: ba449325c44cf354f9704b4750be60d2, type: 3}
       propertyPath: m_LocalPosition.y

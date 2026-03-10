@@ -15,7 +15,7 @@ public class NPC : MonoBehaviour
     [SerializeField] public NPC_Data data;
     public int currentPOIId;
     public int currentPOISlot;
-    public float givenDwellTime = 2f;
+    public float givenDwellTime = 1f;
     public float currentTime = 0f;
     public bool isTimeRunning = true;
 
@@ -43,6 +43,16 @@ public class NPC : MonoBehaviour
 
         rend = GetComponent<MeshRenderer>();
         ogColor = rend.material.color;
+
+        Vector3 initDest = POIManager.Instance.InitGetDestination(this);
+        if(initDest == Vector3.zero)
+        {
+            Debug.Log("Not Enough POI slots for total NPCs.");
+        }
+        agent.SetDestination(initDest);
+        isMoving = true;
+        isTimeRunning = false;
+
     }
 
     void Update()
@@ -60,7 +70,7 @@ public class NPC : MonoBehaviour
         if(moveEnabled && currentTime >= givenDwellTime && !isMoving)
         {
             POI prevPOI = POIManager.Instance.FindPOIWithId(currentPOIId);
-            Vector3 prevPos = transform.position;
+            //Vector3 prevPos = transform.position;
             float prevGivenDwellTime = givenDwellTime;
 
             Vector3 nextDest = POIManager.Instance.GetNextDestination(this);
@@ -74,8 +84,8 @@ public class NPC : MonoBehaviour
             }
             else
             {
-                givenDwellTime = prevGivenDwellTime;
-                currentTime = 0f;
+                    givenDwellTime = prevGivenDwellTime;
+                    currentTime = 0f;
             }
         }
 

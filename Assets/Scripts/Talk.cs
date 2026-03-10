@@ -92,6 +92,8 @@ public class Talk : MonoBehaviour
         var npc = hit.collider.GetComponentInParent<NPC>();
         currentTarget = npc; // npc가 null이면(레이어 잘못 지정 등) null로 들어감
 
+        if(currentTarget == null)
+            return;
         if(currentTarget.isTalkable)
         {
             this.isTalkable = true;

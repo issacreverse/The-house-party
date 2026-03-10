@@ -12,7 +12,7 @@ public class POIManager : MonoBehaviour
     [SerializeField] private int selectAmount = 2; //표본 몇 개 뽑을 건지
     public bool samePOIEnabled = true;  //같은 곳 또 배정받을 수 있는지 
     [SerializeField] private float crowdPenalty = 0.3f;  //사람 한 명 붐빌 때마다 패널티 
-    [SerializeField] private float thresholdScore = 0.9f; //임계값. 못 넘으면 해당 자리에 계속 머문다 
+    [SerializeField] private float thresholdScore = 0.7f; //임계값. 못 넘으면 해당 자리에 계속 머문다 
 
     void Awake()
     {
@@ -121,5 +121,21 @@ public class POIManager : MonoBehaviour
                     //distancePenalty
 
         return score;
+    }
+
+    public Vector3 InitGetDestination(NPC npc)
+    {
+        foreach(POI poi in list)
+        {
+            Vector3 slot = poi.AssignSlot(npc);
+            if(slot != Vector3.zero)
+            {
+                npc.currentPOIId = poi.data.id;
+                npc.givenDwellTime = Random.Range(poi.data.minDwell, poi.data.maxDwell);
+                Debug.Log("DwellTime is: "+ npc.givenDwellTime);
+                return slot;
+            } 
+        }
+        return Vector3.zero;
     }
 }
