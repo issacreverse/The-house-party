@@ -82,6 +82,11 @@ public class GameManager : MonoBehaviour
             RoundOver();
         }
     }
+    //suspicion meter is full, you get kicked out even the round isn't over. sad.
+    public void KickedOut()
+    {
+        SceneManager.LoadScene("KickedOutScene");
+    }
     void RoundOver()
     {
         isRoundOver = true;

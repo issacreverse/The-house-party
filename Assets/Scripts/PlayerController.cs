@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
     //aim and tag
     [SerializeField] private float tagRange = 500f;
     [SerializeField] private LayerMask hitMask;
+    [SerializeField] private SuspicionMeter _suspicionMeter;
 
 
 
@@ -192,6 +193,7 @@ public class PlayerController : MonoBehaviour
         zoomEnabled = false;
 
         playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, talkFOV, Time.deltaTime * talkLerpSpeed);
+        _suspicionMeter.TalkNPC(); // meter rises when talking to NPC.
         StartCoroutine(currentTarget.StartTalking(gameObject.transform));
 
     }
