@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47de44cb097237444ac1368e2caf5914
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181250
+  packageName: LOWPOLY - Halloween Monsters
+  packageVersion: 1.1
+  assetPath: Assets/HalloweenMonsters/PrefabsSingle/Character_Zombie.prefab
+  uploadId: 404885

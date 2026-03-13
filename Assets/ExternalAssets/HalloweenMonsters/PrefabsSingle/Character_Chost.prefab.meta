@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e53ab99435b1194a83bb713baff0dd1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181250
+  packageName: LOWPOLY - Halloween Monsters
+  packageVersion: 1.1
+  assetPath: Assets/HalloweenMonsters/PrefabsSingle/Character_Chost.prefab
+  uploadId: 404885

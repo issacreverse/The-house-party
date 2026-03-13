@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b0fc26a6855c754bb714287f19ab3e4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181250
+  packageName: LOWPOLY - Halloween Monsters
+  packageVersion: 1.1
+  assetPath: Assets/HalloweenMonsters/PrefabsSingle/Character_Death.prefab
+  uploadId: 404885

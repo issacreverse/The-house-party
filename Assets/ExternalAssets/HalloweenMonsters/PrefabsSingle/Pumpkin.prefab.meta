@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a6a8454b88e9e0641858192d3ac5b9bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181250
+  packageName: LOWPOLY - Halloween Monsters
+  packageVersion: 1.1
+  assetPath: Assets/HalloweenMonsters/PrefabsSingle/Pumpkin.prefab
+  uploadId: 404885
