@@ -109,8 +109,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 347230784647595409}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.4
-  m_Speed: 1.5
+  m_Radius: 0.56
+  m_Speed: 1.15
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -247,9 +247,8 @@ MonoBehaviour:
   act: 0
   walk: 0
   actAnimCount: 7
-  walkAnimCount: 2
+  walkAnimCount: 7
   idleAnimCount: 4
-  _npc: {fileID: 0}
 --- !u!95 &347230784657127007 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 32b90e42f3692f045b928956b23beb03, type: 3}

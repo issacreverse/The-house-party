@@ -164,7 +164,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.083333336
+  m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 68632f312fd65ee4fa4f4beb55f99743, type: 2}
   m_BuildHeightMesh: 0
@@ -1355,6 +1355,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6480631526922846784, guid: 467d5071a21cd0a4aa6cb76e876e6c0e, type: 3}
   m_PrefabInstance: {fileID: 1938187672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &773190237 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6088804005145598295, guid: 80ed096024a989845a071a8ea0c6dd5a, type: 3}
+  m_PrefabInstance: {fileID: 1136830482}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &795996040
 PrefabInstance:
@@ -2641,7 +2646,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1338478135}
     m_Modifications:
     - target: {fileID: 6088804005145363817, guid: 80ed096024a989845a071a8ea0c6dd5a, type: 3}
       propertyPath: m_Name
@@ -3171,6 +3176,7 @@ Transform:
   - {fileID: 1338709034}
   - {fileID: 436846894}
   - {fileID: 1998082107}
+  - {fileID: 773190237}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1338709033
@@ -28849,4 +28855,3 @@ SceneRoots:
   - {fileID: 5241184991202842553}
   - {fileID: 6862261572764098557}
   - {fileID: 58038326}
-  - {fileID: 1136830482}

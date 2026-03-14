@@ -14,10 +14,10 @@ public class NPCAnim : MonoBehaviour
 
     //  ****애니메이션 종류 수가 달라지면 값을 바꿔주세요!****
     public int actAnimCount = 7;
-    public int walkAnimCount = 2;
+    public int walkAnimCount = 7;  // 1: drunk 2-7: sober
     public int idleAnimCount = 4;
 
-    public NPC _npc;
+    private NPC _npc;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

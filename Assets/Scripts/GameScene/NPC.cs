@@ -249,6 +249,8 @@ public class NPC : MonoBehaviour
 
         //Actual Conversation
         //dialog start
+        _npcAnim.ResetToIdle();   //대화를 시작하면 하던 애니메이션이 아니라 Idle을 실행한다. 
+
         currentDialog = GetWeightedRandomDialog().text;
         UIManager.Instance.UI_dialogEnter(currentDialog);
         AudioManager.Instance.PlayVoiceSource();
@@ -259,6 +261,9 @@ public class NPC : MonoBehaviour
     public IEnumerator NPCAfterConversation()
     {
         moveEnabled = true;
+        
+        if(isMoving)
+            _npcAnim.Walk();    //걷던 중이였으면 대화가 끝난 후 이어서 걷기 시작한다. 
         //원래대로 회전
         transform.DOKill();
         rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;

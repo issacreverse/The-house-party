@@ -51,6 +51,11 @@ public class POI : MonoBehaviour
     }
     public Quaternion GetSlotRotation(int slotId)
     {
+        if(slotId >= slots.Length)
+        {
+            Debug.Log("GetSlotRotation() out of bounds error");
+            return slots[0].rotation;
+        }
         return slots[slotId].rotation;
     }
 }
