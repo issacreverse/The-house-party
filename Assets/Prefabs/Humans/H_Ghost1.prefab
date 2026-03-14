@@ -166,10 +166,10 @@ MonoBehaviour:
   currentTime: 0
   isTimeRunning: 1
   isTagged: 0
+  tagMaterial: {fileID: 2100000, guid: 8b87ac47f6d32a84dad7a63664081e37, type: 2}
   currentDialog: 
   animOn: 0
   isCustomAsset: 0
-  _npcAnim: {fileID: 0}
   currentActTime: 0
   isActing: 0
   actTime: 5

@@ -44,12 +44,12 @@ public class AudioManager : MonoBehaviour
     IEnumerator PlaySegment(AudioSource source, AudioClip clip, float start, float end)
     {
         float clipLength = clip.length;
-        Debug.Log("Clip Length: " + clipLength);
+        //Debug.Log("Clip Length: " + clipLength);
 
         start = Mathf.Clamp(start, 0f, clipLength);
         end   = Mathf.Clamp(end, start, clipLength);
 
-        Debug.Log("Start: " + start + " End: " + end);
+        //Debug.Log("Start: " + start + " End: " + end);
 
         source.clip = clip;
         source.time = start;

@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: faba105b704a840468d56bbd820846b7, type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: faba105b704a840468d56bbd820846b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.657
@@ -193,10 +197,10 @@ MonoBehaviour:
   currentTime: 0
   isTimeRunning: 1
   isTagged: 0
+  tagMaterial: {fileID: 2100000, guid: 8b87ac47f6d32a84dad7a63664081e37, type: 2}
   currentDialog: 
   animOn: 1
   isCustomAsset: 1
-  _npcAnim: {fileID: 2015681974427731829}
   currentActTime: 0
   isActing: 0
   actTime: 5

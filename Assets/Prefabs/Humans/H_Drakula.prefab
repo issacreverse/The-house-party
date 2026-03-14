@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 5322964293b3d954992f8cc9d9ebd5df, type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 5322964293b3d954992f8cc9d9ebd5df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.35
@@ -189,10 +193,10 @@ MonoBehaviour:
   currentTime: 0
   isTimeRunning: 1
   isTagged: 0
+  tagMaterial: {fileID: 2100000, guid: 8b87ac47f6d32a84dad7a63664081e37, type: 2}
   currentDialog: 
   animOn: 1
   isCustomAsset: 1
-  _npcAnim: {fileID: 9101697904812107209}
   currentActTime: 0
   isActing: 0
   actTime: 5

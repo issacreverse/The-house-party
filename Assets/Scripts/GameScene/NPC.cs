@@ -27,8 +27,11 @@ public class NPC : MonoBehaviour
     public bool isTagged = false;
 
     //태그 시 색깔 바꿈 (테스트 용)
-    MeshRenderer rend;
-    Color ogColor;
+    //MeshRenderer rend;
+    //Color ogColor;
+    public Material tagMaterial;
+    private MeshRenderer r;
+    private SkinnedMeshRenderer smr;
 
     //dialog
     public string currentDialog;
@@ -37,7 +40,7 @@ public class NPC : MonoBehaviour
     public bool animOn = true;
     public bool isCustomAsset = true;
 
-    public NPCAnim _npcAnim;
+    private NPCAnim _npcAnim;
     public float currentActTime = 0f;
     public bool isActing = false;
     public float actTime = 5f; //한 번 act 하면 얼마나 오래 하는지 
@@ -53,14 +56,22 @@ public class NPC : MonoBehaviour
 
         agent = GetComponent<NavMeshAgent>();
         rb = GetComponent<Rigidbody>();
+        if(animOn)
+            _npcAnim = GetComponent<NPCAnim>();
 
-        if(!isCustomAsset)
+        if(isCustomAsset)
         {
-            rend = GetComponent<MeshRenderer>();
-            ogColor = rend.material.color;
+            smr = GetComponentInChildren<SkinnedMeshRenderer>();
         }
+        else
+            r = GetComponent<MeshRenderer>();
         
-
+        StartCoroutine(C_Start());
+        
+    }
+    public IEnumerator C_Start()
+    {
+        yield return null;
         Vector3 initDest = POIManager.Instance.InitGetDestination(this);
         if(initDest == Vector3.zero)
         {
@@ -69,13 +80,13 @@ public class NPC : MonoBehaviour
         agent.SetDestination(initDest);
         isMoving = true;
         isTimeRunning = false;
-        Debug.Log("kk");
-        Debug.Log("animOn1:" + animOn);
+        //Debug.Log("kk");
+        //Debug.Log("animOn1:" + animOn);
         //목적지 설정되면 walk animation 재생.
         if(animOn)
         {
             _npcAnim.Walk();
-            Debug.Log("Init WalkAnim");
+            //Debug.Log("Init WalkAnim");
         }
             
 
@@ -83,13 +94,12 @@ public class NPC : MonoBehaviour
         if(animOn)
         {
             StartCoroutine(TryAct());
-            Debug.Log("Start coroutine");
+            //Debug.Log("Start coroutine");
         }
-        Debug.Log("animOn2:" + animOn);
+        //Debug.Log("animOn2:" + animOn);
 
         //agent.avoidancePriority = Random.Range(20, 80);
     }
-
     void Update()
     {
         //타이머가 활성화되어있다면 시간을 센다. 
@@ -105,8 +115,8 @@ public class NPC : MonoBehaviour
                 if(currentActTime <= 0f)
                 {
                     isActing = false;
-                    Debug.Log("AA");
-                    Debug.Log("animOn3:" + animOn);
+                    //Debug.Log("AA");
+                    //Debug.Log("animOn3:" + animOn);
                     if(animOn)
                         _npcAnim.ResetToIdle();
                 }
@@ -133,9 +143,9 @@ public class NPC : MonoBehaviour
                 agent.SetDestination(nextDest);
                 prevPOI.FreeSlot(currentPOISlot);
 
-                Debug.Log("BB");
+                //Debug.Log("BB");
                 //목적지 설정되면 walk animation 재생.
-                Debug.Log("animOn4:" + animOn);
+                //Debug.Log("animOn4:" + animOn);
                 if(animOn) 
                     _npcAnim.Walk();
             }
@@ -172,17 +182,17 @@ public class NPC : MonoBehaviour
     {
         while(true)
         {
-            Debug.Log("C");
+            //Debug.Log("C");
             yield return new WaitForSeconds(1.0f);
             if(!isMoving)
             {  
                 if(currentTime >= 2f && !isActing && Random.Range(0,talkFrequency) == 0)
                 {
-                    Debug.Log("D");
+                    //Debug.Log("D");
                     currentActTime += actTime;
                     isActing = true;
                     //act animation을 실행한다. 
-                    Debug.Log("animOn5:" + animOn);
+                    //Debug.Log("animOn5:" + animOn);
                     if(animOn)
                         _npcAnim.Act();
                 }
@@ -249,7 +259,8 @@ public class NPC : MonoBehaviour
 
         //Actual Conversation
         //dialog start
-        _npcAnim.ResetToIdle();   //대화를 시작하면 하던 애니메이션이 아니라 Idle을 실행한다. 
+        if(animOn)
+            _npcAnim.ResetToIdle();   //대화를 시작하면 하던 애니메이션이 아니라 Idle을 실행한다. 
 
         currentDialog = GetWeightedRandomDialog().text;
         UIManager.Instance.UI_dialogEnter(currentDialog);
@@ -262,7 +273,7 @@ public class NPC : MonoBehaviour
     {
         moveEnabled = true;
         
-        if(isMoving)
+        if(isMoving && animOn)
             _npcAnim.Walk();    //걷던 중이였으면 대화가 끝난 후 이어서 걷기 시작한다. 
         //원래대로 회전
         transform.DOKill();
@@ -284,20 +295,22 @@ public class NPC : MonoBehaviour
         yield return null;
     }
     public void TagNPC()
-    {
+    {   
+        if(isTagged)
+            return;
         GameManager.Instance.UseTagsLeft();
         
-        isTagged = !isTagged;
-        if(isTagged)
+        isTagged = true;
+        
+        Debug.Log(data.npcName + " has been tagged!");
+        //rend.material.color = Color.red;
+        if(isCustomAsset)
         {
-            Debug.Log(data.npcName + " has been tagged!");
-            rend.material.color = Color.red;
+            smr.material = tagMaterial;
         }
         else
-        {
-            Debug.Log(data.npcName + " has been untagged!");
-            rend.material.color = ogColor;
-        }
+            r.material = tagMaterial;
+        
     }
 
 

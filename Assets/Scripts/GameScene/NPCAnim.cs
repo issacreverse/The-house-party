@@ -31,7 +31,7 @@ public class NPCAnim : MonoBehaviour
         
         act = false;
         walk = false;
-        Debug.Log("Walk: false");
+        //Debug.Log("Walk: false");
 
         actNum = 0;
         walkNum = 0;
@@ -43,7 +43,7 @@ public class NPCAnim : MonoBehaviour
     {
         animator.SetBool("Act", act);
         animator.SetBool("Walk", walk);
-        Debug.Log("Walk APPlied to " + walk);
+        //Debug.Log("Walk APPlied to " + walk);
 
         animator.SetInteger("ActNum", actNum);
         animator.SetInteger("WalkNum", walkNum);
@@ -54,7 +54,7 @@ public class NPCAnim : MonoBehaviour
         ResetToIdle();
 
         walk = true;
-        Debug.Log("Walk: true");
+        //Debug.Log("Walk: true");
         
         idleNum = 0;
         walkNum = Random.Range(1,walkAnimCount+1);
