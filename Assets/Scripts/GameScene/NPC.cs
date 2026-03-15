@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class NPC : MonoBehaviour
 {
-    public bool isTalkable;
+    public bool isNPCTalkable;
     public bool moveEnabled;
     public bool isDoneTalking;
     public bool isMoving;
@@ -48,7 +48,7 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        isTalkable = false;
+        isNPCTalkable = false;
         moveEnabled = true;
         isDoneTalking = true;
         isMoving = false;
@@ -163,7 +163,7 @@ public class NPC : MonoBehaviour
             currentTime = 0f;
             isMoving = false;
             isTimeRunning = true;
-
+            
             transform.DOKill();
             Quaternion targetRotation = POIManager.Instance.FindPOIWithId(currentPOIId).GetSlotRotation(currentPOISlot);
             Tween t = transform.DORotateQuaternion(targetRotation, 0.5f);
@@ -213,18 +213,18 @@ public class NPC : MonoBehaviour
 
         return true;
     }
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            isTalkable = true;
+            isNPCTalkable = true;
         }
     }
     void OnTriggerExit(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            isTalkable = false;
+            isNPCTalkable = false;
         }
     }
     public IEnumerator StartTalking(Transform target)
@@ -238,6 +238,15 @@ public class NPC : MonoBehaviour
             navigationPaused = true;
         }
         //Look At Player
+        transform.DOKill();
+        rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
+        Quaternion targetRotation = target.rotation * Quaternion.Euler(0f, 180f, 0f);
+        Tween t = transform.DORotateQuaternion(targetRotation, 0.5f);
+        t.OnComplete(() =>
+            {
+                rb.constraints |= RigidbodyConstraints.FreezeRotationY;
+            });
+        /*
         Vector3 dir = target.position - transform.position;
         dir.y = 0f;
 
@@ -256,7 +265,7 @@ public class NPC : MonoBehaviour
         }
 
         transform.rotation = endRot;
-
+        */
         //Actual Conversation
         //dialog start
         if(animOn)
@@ -276,6 +285,7 @@ public class NPC : MonoBehaviour
         if(isMoving && animOn)
             _npcAnim.Walk();    //걷던 중이였으면 대화가 끝난 후 이어서 걷기 시작한다. 
         //원래대로 회전
+        
         transform.DOKill();
         rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
         Quaternion targetRotation = POIManager.Instance.FindPOIWithId(currentPOIId).GetSlotRotation(currentPOISlot);
@@ -284,7 +294,7 @@ public class NPC : MonoBehaviour
             {
                 rb.constraints |= RigidbodyConstraints.FreezeRotationY;
             });
-
+        
         if(navigationPaused)
         {
             navigationPaused = false;

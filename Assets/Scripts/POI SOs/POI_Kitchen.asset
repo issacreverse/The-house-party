@@ -16,5 +16,5 @@ MonoBehaviour:
   baseWeight: 1
   minDwell: 15
   maxDwell: 30
-  capacity: 4
+  capacity: 6
   type: 3
