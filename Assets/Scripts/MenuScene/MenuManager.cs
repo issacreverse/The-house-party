@@ -1,8 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
-{
+{   
+    public Image howToPlayPanel;
+
+    public Image settingsPanel;
+
     public void NewGame()
     {
         SceneManager.LoadScene("GameScene");
@@ -10,7 +15,11 @@ public class MenuManager : MonoBehaviour
 
     public void Settings()
     {
-        //toggle settings UI
+        settingsPanel.gameObject.SetActive(true);
+    }
+    public void SettingsPanelOff()
+    {
+        settingsPanel.gameObject.SetActive(false);
     }
 
     public void CustomModes()
@@ -19,12 +28,18 @@ public class MenuManager : MonoBehaviour
         //or go to CustomModes Scene
     }
 
+    public void HowToPlay()
+    {
+        howToPlayPanel.gameObject.SetActive(true);
+    }
+    public void HowToPlayPanelOff()
+    {
+        howToPlayPanel.gameObject.SetActive(false);
+    }
     public void Lore()
     {
-        //toggle Lore UI
-        //or go to Lore Scene
+        SceneManager.LoadScene("LoreScene");
     }
-
     public void Credits()
     {
         //toggle Credits UI

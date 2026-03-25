@@ -18,6 +18,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfxSource;
 
     [SerializeField] private AudioClip doorSlam;
+    [SerializeField] private AudioClip stamp;
+    [SerializeField] private AudioClip textPop;
+
     [SerializeField] private CustomClip[] voiceClips;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -58,5 +61,18 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(end - start);
         
         source.Stop();
+    }
+    public void PlayTextPop()
+    {
+        voiceSource.PlayOneShot(textPop);
+    }
+    public void PlayStamp()
+    {
+        voiceSource.PlayOneShot(stamp);
+    }
+    public void StopAudioAfterGame()
+    {
+        bgmSource.Stop();
+        sfxSource.Stop();
     }
 }

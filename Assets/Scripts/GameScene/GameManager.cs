@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     private bool gamePaused = false;
 
+    public float currentSusVal;
+
     //시작 필드
     public int monsterCount;
     public int tagsLeft = 1;
@@ -42,15 +44,22 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
     }
-    void Start()
+    public void GameReset()
     {
         currentTime = 0f;
+        NPCs = GameObject.Find("NPCs").transform;
         npcList = new List<NPC>();
         npcTagFalseList = new List<NPC>();
         npcTagTrueList = new List<NPC>();
 
         RegisterNPC();
         InitialUIUpdate();
+
+        currentSusVal = 0f;
+    }
+    void Start()
+    {
+        GameReset();
 
         // for prototype
         SceneManager.sceneLoaded += ShowResults;
@@ -171,8 +180,21 @@ public class GameManager : MonoBehaviour
     // for prototype
     public void ShowResults(Scene scene, LoadSceneMode mode)
     {
+        
+        /*
+        //이거 안 좋은 코드인 거 아는데 씬 이벤트가 불리니까 같이 얻어탄다는 마인드 
+        //초기값 세팅 
+        if(scene.name == "GameScene")
+        {
+            Debug.Log("AA");
+            GameReset();
+        }
+        */
         if(scene.name != "RoundOverScene")
             return;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         StartCoroutine(ShowResultWithDelay());
     }
@@ -181,36 +203,30 @@ public class GameManager : MonoBehaviour
     {
         GameObject UIManager = GameObject.Find("UIManager");
         UIManager_2 _UI = UIManager.GetComponent<UIManager_2>();
+
+        AudioManager.Instance.StopAudioAfterGame();
         
-        if(monsterTagged != 0)
-        {
-            yield return new WaitForSeconds(2.5f);
-            _UI.Showtext("You executed " + monsterTagged + " monsters.");
-        }
-           
-        if(humanTagged != 0)
-        {
-            yield return new WaitForSeconds(2.5f);
-            _UI.Showtext("You killed " + humanTagged + " inocent people.");
-        }
-            
-        if(monsterNotTagged != 0)
-        {
-            yield return new WaitForSeconds(2.5f);
-            _UI.Showtext("You let " + monsterNotTagged + " monsters go away...");
-        }
-            
+        yield return new WaitForSeconds(1.0f);
+
+        yield return new WaitForSeconds(1.5f);
+        string str1 = Mathf.FloorToInt(currentSusVal*100) + "%";
+        _UI.PrintText(1, str1);
+        AudioManager.Instance.PlayTextPop();
+
+        yield return new WaitForSeconds(1.5f);
+        string str2 = monsterTagged + " / " + monsterCount;
+        _UI.PrintText(2, str2);
+        AudioManager.Instance.PlayTextPop();
+
+        yield return new WaitForSeconds(1.5f);
+        string str3 = humanTagged + "";
+        _UI.PrintText(3, str3);
+        AudioManager.Instance.PlayTextPop();
         
-        if(monsterTagged == monsterCount)
-        {
-            yield return new WaitForSeconds(3.5f);
-            _UI.Showtext("<color=green>Looks like you saved another halloween. Well Done.</color>");
-        }
-            
-        else
-        {
-            yield return new WaitForSeconds(3.5f);
-            _UI.Showtext("<color=red>You hear SCREAMING VOICES...Game Over.</color>");
-        }
+        
+        yield return new WaitForSeconds(2.5f);
+        _UI.ShowResultImage(monsterTagged == monsterCount);
+        AudioManager.Instance.PlayStamp();
+        
     }
 }
