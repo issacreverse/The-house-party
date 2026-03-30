@@ -13,6 +13,20 @@ public class UIManager_2 : MonoBehaviour
     [SerializeField] private Sprite failedSprite;
 
 
+    // UnlockNewLevel function authored by Hunter Cave
+    // To be active when Levels are built
+    /*
+    void UnlockNewLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
+        {
+            PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+            PlayerPrefs.Save();
+        }
+    }
+     */
+
     //UIManager_2의 텍스트를 변경합니다. 필드 차례대로 1부터 받습니다.
     public void PrintText(int textNo, string text)
     {
@@ -38,6 +52,8 @@ public class UIManager_2 : MonoBehaviour
         if(success)
         {
             missionResult.sprite = successSprite;
+            // To be active when UnlockNewLevel function is active
+            // UnlockNewLevel();
         }
         else
         {

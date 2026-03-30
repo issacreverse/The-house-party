@@ -6144,10 +6144,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 949640981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 73.8999, y: 202.30005}
-  m_SizeDelta: {x: 278.8, y: 401.2}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -166, y: -219}
+  m_SizeDelta: {x: 278.80005, y: 401.19995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828500934
 MonoBehaviour:
@@ -6201,6 +6201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SuspicionMeter
   suspicionMeter: {fileID: 1828500934}
   sprites:
+  - {fileID: 21300000, guid: 2e3fecb0790fd7645adaf47d938f141c, type: 3}
   - {fileID: 21300000, guid: b1c05dc36dc7bff42ab3ec9705c14092, type: 3}
   - {fileID: 21300000, guid: 53eb8f415cee77d48aea608b460f5491, type: 3}
   - {fileID: 21300000, guid: 91110fb684ce02e4eae79409e5c68515, type: 3}
@@ -6209,7 +6210,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b27caece04e498e438832b5cc52a0d96, type: 3}
   - {fileID: 21300000, guid: 8c3070b7f84f8524abf0f50fe76d34eb, type: 3}
   - {fileID: 21300000, guid: c33b94496df553d4fba91b3183db39ea, type: 3}
-  susDelta: 0.2
+  susDelta: 0.125
   flickerTimeInterval: 0.2
   flickerAmount: 5
   kickedOutFlag: 0
@@ -7761,8 +7762,6 @@ MonoBehaviour:
   maxPitch: 85
   moveSpeed: 5
   gravity: -9.81
-  jumpHeight: 1
-  terminalVelocity: -20
   normalFOV: 60
   zoomFOV: 35
   zoomSpeed: 10
@@ -9012,14 +9011,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982213887538003098}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64, y: 1.25, z: 10.242261}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.63999945, y: 1.25, z: 10.242261}
   m_LocalScale: {x: 0.8, y: 1.2, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7242862573341990327}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &1436489519006332590
 Transform:
   m_ObjectHideFlags: 0

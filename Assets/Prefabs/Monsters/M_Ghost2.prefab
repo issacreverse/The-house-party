@@ -159,7 +159,7 @@ MonoBehaviour:
   isMoving: 0
   navigationPaused: 0
   duration: 1.2
-  data: {fileID: 11400000, guid: 40fea2c003cc06a4c93f8c6588db8ad0, type: 2}
+  data: {fileID: 11400000, guid: 06cd483631eacbf4d8dd5637f43fb4b4, type: 2}
   currentPOIId: 0
   currentPOISlot: 0
   givenDwellTime: 1

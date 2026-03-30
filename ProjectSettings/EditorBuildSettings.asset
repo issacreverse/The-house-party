@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoreScene.unity
     guid: 91fc95fe333208a4db3ed555f6c00959
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectScene.unity
+    guid: 7d83d9f2325541e4f8bb8b1868994c27
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 7219ae9ded8ab2a49b49b2e8fdf18e4b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
