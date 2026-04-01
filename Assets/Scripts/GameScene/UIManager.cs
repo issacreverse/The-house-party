@@ -5,6 +5,7 @@ using UnityEngine.Video;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] Canvas zoomCanvas;
+    [SerializeField] Canvas zoomOutCanvas;
     [SerializeField] Canvas dialogCanvas;
     //loading
     [SerializeField] Canvas loadingCanvas;
@@ -14,6 +15,9 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] Text dialogText;
     [SerializeField] Text tagsLeftText;
+
+    [SerializeField] Image defaultAmmoSprite;
+    [SerializeField] Sprite noAmmoSprite;
 
     public static UIManager Instance;
     void Awake()
@@ -58,7 +62,13 @@ public class UIManager : MonoBehaviour
     }
     public void UI_UpdateTagsLeft()
     {
-        tagsLeftText.text = "Tags Left: "+ GameManager.Instance.tagsLeft;
+        if(GameManager.Instance.tagsLeft <= 0)
+        {
+            tagsLeftText.text = "";
+            defaultAmmoSprite.sprite = noAmmoSprite;
+            return;
+        }
+        tagsLeftText.text = ""+ GameManager.Instance.tagsLeft;
     }
     public void UI_ShowLoadingScreen()
     {
@@ -73,5 +83,6 @@ public class UIManager : MonoBehaviour
     public void UI_ShowUserCanvas()
     {
         userCanvas.gameObject.SetActive(true);
+        zoomOutCanvas.gameObject.SetActive(true);
     }
 }

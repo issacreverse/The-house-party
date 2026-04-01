@@ -7,6 +7,7 @@ TagManager:
   - NPC
   - UI
   - Persistent
+  - Door
   layers:
   - Default
   - TransparentFX

@@ -88,21 +88,25 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayTextPop()
     {
-        float prevVolume = sfxSource.volume;
+        //float prevVolume = sfxSource.volume;
         sfxSource.volume = 1f;
         sfxSource.PlayOneShot(textPop);
-        sfxSource.volume = prevVolume;
+        //sfxSource.volume = prevVolume;
     }
     public void PlayStamp()
     {
-        float prevVolume = sfxSource.volume;
+        //float prevVolume = sfxSource.volume;
         sfxSource.volume = 1f;
         sfxSource.PlayOneShot(stamp);
-        sfxSource.volume = prevVolume;
+        //sfxSource.volume = prevVolume;
     }
     public void StopAudioAfterGame()
     {
         bgmSource.Stop();
         sfxSource.Stop();
+    }
+    public void DoorSlam()
+    {
+        sfxSource.PlayOneShot(doorSlam);
     }
 }

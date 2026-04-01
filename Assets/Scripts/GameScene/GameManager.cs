@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public int humanTagged; //생사람 잡은 거
     public int humanNotTagged; //일반 사람 
 
+    [SerializeField] private Door _door;
     private bool isRoundOver = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -99,9 +100,21 @@ public class GameManager : MonoBehaviour
         {
             //RoundOver();
         }
-        if(tagsLeft <= 0)
+        if(_door.isPlayerInRange)
         {
-            RoundOver();
+            float y = transform.eulerAngles.y;
+            if(y >180f)
+            {
+                y = y - 360f;
+            }
+            if(y > -35f && y < 35f)
+            {
+                if(Input.GetKey(KeyCode.E))
+                {
+                    AudioManager.Instance.DoorSlam();
+                    RoundOver();
+                }
+            }
         }
     }
     //suspicion meter is full, you get kicked out even the round isn't over. sad.
