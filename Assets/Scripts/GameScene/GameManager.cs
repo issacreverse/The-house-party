@@ -69,11 +69,11 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator GameStartDelay()
     {
-        player.GetComponent<PlayerController>().DisablePlayerControl();
         yield return new WaitForSeconds(10.0f);
         //게임 시작
         UIManager.Instance.UI_HideLoadingScreen();
-        player.GetComponent<PlayerController>().EnablePlayerControl();
+        UIManager.Instance.UI_ShowUserCanvas();
+        player.SetActive(true);
         AudioManager.Instance.PlayGameStart();
 
     }

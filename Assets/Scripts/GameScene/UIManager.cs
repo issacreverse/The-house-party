@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] Canvas loadingCanvas;
     [SerializeField] VideoPlayer videoPlayer;
 
+    [SerializeField] Canvas userCanvas;
+
     [SerializeField] Text dialogText;
     [SerializeField] Text tagsLeftText;
 
@@ -67,5 +69,9 @@ public class UIManager : MonoBehaviour
     {
         loadingCanvas.gameObject.SetActive(false);
         videoPlayer.Stop();
+    }
+    public void UI_ShowUserCanvas()
+    {
+        userCanvas.gameObject.SetActive(true);
     }
 }
