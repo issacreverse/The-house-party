@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   preference: 2
   npcType: 1
-  npcName: Ghost_M1
+  npcName: Ghost_Monster1
   dialogs:
   - text: Do you see? That light...
     weight: 1
@@ -25,9 +25,6 @@ MonoBehaviour:
   - text: Can you hear them below us?
     weight: 1
     condition: 0
-  - text: For our sentence, a life of torture.
-    weight: 1
-    condition: 0
-  - text: Please... Free us Father...
+  - text: Please...free us father...
     weight: 1
     condition: 0

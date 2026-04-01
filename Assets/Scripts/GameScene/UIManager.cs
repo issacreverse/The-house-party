@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] Canvas zoomCanvas;
     [SerializeField] Canvas dialogCanvas;
+    //loading
+    [SerializeField] Canvas loadingCanvas;
+    [SerializeField] VideoPlayer videoPlayer;
+
     [SerializeField] Text dialogText;
     [SerializeField] Text tagsLeftText;
 
@@ -52,5 +57,15 @@ public class UIManager : MonoBehaviour
     public void UI_UpdateTagsLeft()
     {
         tagsLeftText.text = "Tags Left: "+ GameManager.Instance.tagsLeft;
+    }
+    public void UI_ShowLoadingScreen()
+    {
+        loadingCanvas.gameObject.SetActive(true);
+        videoPlayer.Play();
+    }
+    public void UI_HideLoadingScreen()
+    {
+        loadingCanvas.gameObject.SetActive(false);
+        videoPlayer.Stop();
     }
 }

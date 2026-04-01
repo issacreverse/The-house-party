@@ -14,20 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   preference: 2
   npcType: 1
-  npcName: Ghost_M1
+  npcName: Vampire_Monster1
   dialogs:
-  - text: Mortals... Their lives are fleeting...
+  - text: No maidens to feast upon here?
     weight: 1
     condition: 0
-  - text: Would carbonated blood taste just as good as regular?
+  - text: Would carbonated blood taste good?
     weight: 1
     condition: 0
-  - text: No maidens to feast upon here...
+  - text: Mortals...their lives are fleeting.
     weight: 1
     condition: 0
-  - text: For one thousand years I have longed for a feast like this...
-    weight: 1
-    condition: 0
-  - text: Look into my eyes... Become my minion...
+  - text: Bleh bleh bleh...so derivative.
     weight: 1
     condition: 0

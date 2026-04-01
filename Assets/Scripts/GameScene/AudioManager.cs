@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip doorSlam;
     [SerializeField] private AudioClip stamp;
     [SerializeField] private AudioClip textPop;
+    [SerializeField] private AudioClip susMeter;
 
     [SerializeField] private CustomClip[] voiceClips;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,13 +30,31 @@ public class AudioManager : MonoBehaviour
         if(Instance == null)
             Instance = this;
 
-        bgmSource.Play();
-        sfxSource.Play();
-        sfxSource.PlayOneShot(doorSlam);
+        //SceneManager.sceneLoaded += GameSceneLoaded;
 
         DontDestroyOnLoad(this);
     }
-
+    void Destroy()
+    {
+        //SceneManager.sceneLoaded -= GameSceneLoaded;
+    }
+    /*
+    public void GameSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.name == "GameScene")
+        {
+            bgmSource.Play();
+            sfxSource.Play();
+            sfxSource.PlayOneShot(doorSlam);
+        }
+    }
+    */
+    public void PlayGameStart()
+    {
+        bgmSource.Play();
+        sfxSource.Play();
+        sfxSource.PlayOneShot(doorSlam);
+    }
     public void PlayVoiceSource()
     {
         int index = Random.Range(0,voiceClips.Length);
@@ -62,13 +82,17 @@ public class AudioManager : MonoBehaviour
         
         source.Stop();
     }
+    public void PlaySusMeter()
+    {
+        sfxSource.PlayOneShot(susMeter);
+    }
     public void PlayTextPop()
     {
-        voiceSource.PlayOneShot(textPop);
+        sfxSource.PlayOneShot(textPop);
     }
     public void PlayStamp()
     {
-        voiceSource.PlayOneShot(stamp);
+        sfxSource.PlayOneShot(stamp);
     }
     public void StopAudioAfterGame()
     {

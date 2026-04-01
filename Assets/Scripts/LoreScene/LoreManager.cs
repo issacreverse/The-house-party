@@ -9,6 +9,9 @@ public class LoreManager : MonoBehaviour
 
     public int idx = 0;
 
+    [SerializeField] private AudioSource sfxManager;
+    [SerializeField] private AudioClip pageTurnSfx;
+
     void Start()
     {
         currentLoreImg.sprite = loreSprites[0];
@@ -21,6 +24,7 @@ public class LoreManager : MonoBehaviour
             return;
         currentLoreImg.sprite = loreSprites[idx+1];
         idx++;
+        sfxManager.PlayOneShot(pageTurnSfx);
     }
     public void Prev()
     {
@@ -28,6 +32,7 @@ public class LoreManager : MonoBehaviour
             return;
         currentLoreImg.sprite = loreSprites[idx-1];
         idx--;
+        sfxManager.PlayOneShot(pageTurnSfx);
     }
     public void BackMainMenu()
     {

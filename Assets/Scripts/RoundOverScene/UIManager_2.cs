@@ -72,5 +72,17 @@ public class UIManager_2 : MonoBehaviour
 
         SceneManager.LoadScene("GameScene");
     }
+
+    public void MenuBtn()
+    {
+        GameObject[] persistents = GameObject.FindGameObjectsWithTag("Persistent");
+
+        foreach (GameObject obj in persistents)
+        {
+            Destroy(obj);
+        }
+
+        SceneManager.LoadScene("MenuScene");
+    }
     
 }

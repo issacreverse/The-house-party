@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
 
+    [SerializeField] private GameObject player;
+
     [SerializeField] private Transform NPCs;
     private List<NPC> npcList;
     private List<NPC> npcTagTrueList;
@@ -60,9 +62,20 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GameReset();
-
+        StartCoroutine(GameStartDelay());
         // for prototype
         SceneManager.sceneLoaded += ShowResults;
+    }
+
+    public IEnumerator GameStartDelay()
+    {
+        player.GetComponent<PlayerController>().DisablePlayerControl();
+        yield return new WaitForSeconds(10.0f);
+        //게임 시작
+        UIManager.Instance.UI_HideLoadingScreen();
+        player.GetComponent<PlayerController>().EnablePlayerControl();
+        AudioManager.Instance.PlayGameStart();
+
     }
     // for prototype
     void OnDestroy()

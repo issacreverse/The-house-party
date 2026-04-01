@@ -77,6 +77,18 @@ public class PlayerController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
+    public void EnablePlayerControl()
+    {
+        lookEnabled = true;
+        moveEnabled = true;
+        zoomEnabled = true;
+    }
+    public void DisablePlayerControl()
+    {
+        lookEnabled = false;
+        moveEnabled = false;
+        zoomEnabled = false;
+    }
     void Update()
     {
         // UpdateFOV();
@@ -89,9 +101,10 @@ public class PlayerController : MonoBehaviour
             HandleZoom();
         else
             ApplyGravityOnly();
-
+        /*
         if(Input.GetKeyDown(KeyCode.Space))
             jumpRequested = true;
+        */
     }
 
     private void HandleLook()

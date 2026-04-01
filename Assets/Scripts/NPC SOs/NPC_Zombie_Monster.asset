@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   preference: 2
   npcType: 1
-  npcName: Ghost_M1
+  npcName: Zombie_Monster1
   dialogs:
   - text: Graaahh!!
     weight: 1
@@ -26,8 +26,5 @@ MonoBehaviour:
     weight: 1
     condition: 0
   - text: Feeeed...
-    weight: 1
-    condition: 0
-  - text: Grrr... Raaahhh...
     weight: 1
     condition: 0

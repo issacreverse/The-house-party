@@ -14,20 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   preference: 1
   npcType: 0
-  npcName: Ghost_H1
+  npcName: Vampire_Human1
   dialogs:
-  - text: They can't cut me off of SODA!
+  - text: 'They can''t cut me off of SODA!? '
     weight: 1
     condition: 0
-  - text: This party SUCKS! Where the chicks at?
+  - text: This party sucks! Where the chicks at?
     weight: 1
     condition: 0
-  - text: It's so hard to see in these contacts!
+  - text: I don't think I get parties...
     weight: 1
     condition: 0
-  - text: I've had at least a dozen people trip over me at this point
+  - text: Some of the people here creep me out man.
     weight: 1
     condition: 0
-  - text: It took me an HOUR to put this fit together by the way...
+  - text: I drank too much...
+    weight: 1
+    condition: 0
+  - text: Raaaaah! Did I scare you?
+    weight: 1
+    condition: 0
+  - text: Boo! Haha!
     weight: 1
     condition: 0

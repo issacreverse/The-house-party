@@ -29,6 +29,8 @@ public class SuspicionMeter : MonoBehaviour
     }
     public IEnumerator TalkNPCCoroutine()
     {
+        AudioManager.Instance.PlaySusMeter();
+        
         int idx = Mathf.FloorToInt(GameManager.Instance.currentSusVal*sprites.Length);  // 0은 예외로 0, 0.124까지도 0, 0.125이면 1. 0.99까지는 7, 1은 8.
 
         //미터가 꽉찼다면 일단 게임오버는 확정이고, 다 찼다는 UI는 보여주고 끝내기 위해 idx를 조정한다. 
