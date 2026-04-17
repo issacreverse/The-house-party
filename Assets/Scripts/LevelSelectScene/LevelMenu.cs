@@ -23,11 +23,22 @@ public class LevelMenu : MonoBehaviour
 
     public void OpenBrief(GameObject SelectedBrief)
     {
-        //.SetActive(true);
 
         if (SelectedBrief != null)
         {
             SelectedBrief.SetActive(true);
         }
+    }
+
+    public void MenuBtn()
+    {
+        GameObject[] persistents = GameObject.FindGameObjectsWithTag("Persistent");
+
+        foreach (GameObject obj in persistents)
+        {
+            Destroy(obj);
+        }
+
+        SceneManager.LoadScene("MenuScene");
     }
 }

@@ -22,7 +22,7 @@ MonoBehaviour:
   - text: This party sucks! Where the chicks at?
     weight: 1
     condition: 0
-  - text: I don't think I get parties...
+  - text: Hey dude... who are you?
     weight: 1
     condition: 0
   - text: Some of the people here creep me out man.
@@ -31,9 +31,9 @@ MonoBehaviour:
   - text: I drank too much...
     weight: 1
     condition: 0
-  - text: Raaaaah! Did I scare you?
+  - text: Whatcha think of my fake brain?
     weight: 1
     condition: 0
-  - text: Boo! Haha!
+  - text: I can't see well in this mask...
     weight: 1
     condition: 0

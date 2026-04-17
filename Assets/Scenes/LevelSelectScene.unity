@@ -1089,7 +1089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -128}
+  m_AnchoredPosition: {x: 0, y: -75}
   m_SizeDelta: {x: 525.5406, y: 96.2057}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136206379
@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 524695571}
   - component: {fileID: 524695570}
   m_Layer: 5
-  m_Name: BriefEasyImage
+  m_Name: BriefHardImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1878170034}
         m_TargetAssemblyTypeName: BriefMenu, Assembly-CSharp
         m_MethodName: CloseBrief
         m_Mode: 2
@@ -2622,14 +2622,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1878170034}
         m_TargetAssemblyTypeName: BriefMenu, Assembly-CSharp
         m_MethodName: OpenLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2887,7 +2887,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1878170034}
         m_TargetAssemblyTypeName: BriefMenu, Assembly-CSharp
         m_MethodName: CloseBrief
         m_Mode: 2
@@ -3286,7 +3286,7 @@ GameObject:
   - component: {fileID: 2083182223}
   - component: {fileID: 2083182222}
   m_Layer: 5
-  m_Name: StartEasyButton
+  m_Name: StartHardButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3356,14 +3356,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1878170034}
         m_TargetAssemblyTypeName: BriefMenu, Assembly-CSharp
         m_MethodName: OpenLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

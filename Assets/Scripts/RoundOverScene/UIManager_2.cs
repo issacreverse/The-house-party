@@ -15,7 +15,7 @@ public class UIManager_2 : MonoBehaviour
 
     // UnlockNewLevel function authored by Hunter Cave
     // To be active when Levels are built
-    /*
+    
     void UnlockNewLevel()
     {
         if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
@@ -25,7 +25,7 @@ public class UIManager_2 : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
-     */
+    
 
     //UIManager_2의 텍스트를 변경합니다. 필드 차례대로 1부터 받습니다.
     public void PrintText(int textNo, string text)
@@ -53,7 +53,7 @@ public class UIManager_2 : MonoBehaviour
         {
             missionResult.sprite = successSprite;
             // To be active when UnlockNewLevel function is active
-            // UnlockNewLevel();
+            UnlockNewLevel();
         }
         else
         {
