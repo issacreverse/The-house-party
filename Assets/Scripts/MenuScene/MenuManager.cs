@@ -42,7 +42,7 @@ public class MenuManager : MonoBehaviour
     }
     public void Credits()
     {
-        //toggle Credits UI
+        SceneManager.LoadScene("CreditsScene");
     }
 
     public void Quit()

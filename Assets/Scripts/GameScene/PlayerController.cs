@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     private bool lookEnabled = true;
     private bool moveEnabled = true;
     private bool zoomEnabled = true;
+    private bool tagEnabled = true;
 
 
     // private float targetFOV;
@@ -166,7 +167,7 @@ public class PlayerController : MonoBehaviour
                 // hit.collider / hit.transform 으로 “조준 중인 대상” 인식
                 if(hit.collider.gameObject.CompareTag("NPC"))
                 {
-                    if(Input.GetMouseButtonDown(0))
+                    if(Input.GetMouseButtonDown(0) && tagEnabled)
                     {
                         hit.collider.GetComponent<NPC>().TagNPC();
                     }
@@ -225,6 +226,15 @@ public class PlayerController : MonoBehaviour
     public void DisableZoom()
     {
         zoomEnabled = false;
+        playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalFOV, Time.deltaTime * zoomSpeed);
+        UIManager.Instance.UI_ZoomScopeExit();
+        tagEnabled = false;
+    }
+    public void DisableAll()
+    {
+        DisableZoom();
+        lookEnabled = false;
+        moveEnabled = false;
     }
 
 }

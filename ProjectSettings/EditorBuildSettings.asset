@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/RoundOverScene.unity
     guid: 3214b4cf9e03b504f98c569622118f04
   - enabled: 1
-    path: Assets/Scenes/LoreScene.unity
+    path: Assets/Scenes/CreditsScene.unity
     guid: 91fc95fe333208a4db3ed555f6c00959
   - enabled: 1
     path: Assets/Scenes/LevelSelectScene.unity

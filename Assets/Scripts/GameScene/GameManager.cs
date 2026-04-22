@@ -4,12 +4,17 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
 
+
 public class GameManager : MonoBehaviour
 {
 
     public static GameManager Instance;
 
     [SerializeField] private GameObject player;
+
+    //Iris Animation
+    public GameObject irisObj;
+    private Animator irisAnimator;
 
     [SerializeField] private Transform NPCs;
     private List<NPC> npcList;
@@ -66,6 +71,9 @@ public class GameManager : MonoBehaviour
         StartCoroutine(GameStartDelay());
         // for prototype
         SceneManager.sceneLoaded += ShowResults;
+
+        //iris Animation
+        irisAnimator = irisObj.GetComponent<Animator>();
     }
 
     public IEnumerator GameStartDelay()
@@ -120,7 +128,14 @@ public class GameManager : MonoBehaviour
     //suspicion meter is full, you get kicked out even the round isn't over. sad.
     public void KickedOut()
     {
-        SceneManager.LoadScene("KickedOutScene");
+        player.GetComponent<PlayerController>().DisableAll();
+        irisAnimator.Play("Iris", 0, 0f);
+        StartCoroutine(WaitIrisAnimEnd());
+    }
+    public IEnumerator WaitIrisAnimEnd()
+    {
+        yield return new WaitForSeconds(3.0f);
+        RoundOver();
     }
     void RoundOver()
     {
@@ -195,13 +210,14 @@ public class GameManager : MonoBehaviour
     }
     public void UseTagsLeft()
     {
+        tagsLeft--;
+        OnTagsLeftChanged?.Invoke();
         if(tagsLeft <= 0)
         {
             player.GetComponent<PlayerController>().DisableZoom();
             return;
         }
-        tagsLeft--;
-        OnTagsLeftChanged?.Invoke();
+        
     }
     public void InitialUIUpdate()
     {
