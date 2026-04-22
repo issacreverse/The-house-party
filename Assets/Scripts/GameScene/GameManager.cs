@@ -195,6 +195,11 @@ public class GameManager : MonoBehaviour
     }
     public void UseTagsLeft()
     {
+        if(tagsLeft <= 0)
+        {
+            player.GetComponent<PlayerController>().DisableZoom();
+            return;
+        }
         tagsLeft--;
         OnTagsLeftChanged?.Invoke();
     }

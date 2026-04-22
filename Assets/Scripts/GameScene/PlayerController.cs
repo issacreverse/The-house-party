@@ -222,63 +222,9 @@ public class PlayerController : MonoBehaviour
         
 
     }
-#region FOV
-    /*
-    private void UpdateFov()
+    public void DisableZoom()
     {
-        if (playerCamera == null) return;
-        playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, targetFov, Time.deltaTime * fovLerpSpeed);
+        zoomEnabled = false;
     }
-
-
-    // =========================
-    // Public API (대화/연출용)
-    // =========================
-
-    /// <summary>대화 시작 등으로 시점 전환을 막고 싶을 때</summary>
-    public void SetLookEnabled(bool enabled) => lookEnabled = enabled;
-
-    /// <summary>대화 시작 등으로 이동을 막고 싶을 때</summary>
-    public void SetMoveEnabled(bool enabled) => moveEnabled = enabled;
-
-    /// <summary>커서 잠금/해제</summary>
-    public void LockCursor(bool locked)
-    {
-        Cursor.lockState = locked ? CursorLockMode.Locked : CursorLockMode.None;
-        Cursor.visible = !locked;
-    }
-
-    /// <summary>FOV 목표값 설정 (줌 연출)</summary>
-    public void SetTargetFov(float fov)
-    {
-        targetFov = Mathf.Clamp(fov, 30f, 120f);
-    }
-
-    /// <summary>기본 FOV로 복귀</summary>
-    public void ResetFov() => targetFov = normalFov;
-
-    /// <summary>
-    /// 대화 시작용 편의 함수: 이동/시점 잠그고, 커서 풀고, 줌
-    /// </summary>
-    public void EnterDialogueMode(float dialogueFov = 55f, bool unlockCursor = true)
-    {
-        SetMoveEnabled(false);
-        SetLookEnabled(false);
-        SetTargetFov(dialogueFov);
-        if (unlockCursor) LockCursor(false);
-    }
-
-    /// <summary>
-    /// 대화 종료용 편의 함수: 원복
-    /// </summary>
-    public void ExitDialogueMode(bool lockCursor = true)
-    {
-        ResetFov();
-        SetMoveEnabled(true);
-        SetLookEnabled(true);
-        if (lockCursor) LockCursor(true);
-    }
-    */
-#endregion
 
 }

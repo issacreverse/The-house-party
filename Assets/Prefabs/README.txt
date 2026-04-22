@@ -2,7 +2,7 @@ How to Add NPC Assets
 
 import fbx file
 put it on the scene. 
-scale it to 2.5 in xyz (collider match)
+scale it to 3 in xyz (collider match)
 then adjust the scale through package scale size 1-> 0.9, 0.8 (Whatever)
 Copy paste all components from existing prefabs such as ghost.
 Set the layer and tag as "NPC"
