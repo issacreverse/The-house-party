@@ -1,2 +1,1 @@
-# The-house-party
-GMSD 3800 (Final Team)
+# The-house-party->Ghoul Guesser (Renamed)
